@@ -17,11 +17,11 @@ if errorlevel 1 goto err
 
 echo.
 echo [2/2] Deploying to Cloudflare Pages...
-"%NODE%" node_modules\wrangler\bin\wrangler.js pages deploy dist --project-name=zhetengji --branch=main --commit-dirty=true
+"%NODE%" node_modules\wrangler\bin\wrangler.js pages deploy dist --project-name=steroal --branch=main --commit-dirty=true
 if errorlevel 1 goto err
 
 echo.
-echo OK  -^>  https://zhetengji.pages.dev
+echo OK  -^>  https://steroal.pages.dev
 pause
 exit /b 0
 

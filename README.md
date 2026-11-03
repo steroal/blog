@@ -1,10 +1,10 @@
-# 折腾记
+# Blog
 
 个人博客。Astro + Starlight，全静态，托管在 Cloudflare Pages。
 
-- 线上地址：https://zhetengji.pages.dev
-- 仓库：https://github.com/steroal/zhetengji
-- Cloudflare 项目名：`zhetengji`（账号 yidian_cha@163.com）
+- 线上地址：https://steroal.pages.dev
+- 仓库：https://github.com/steroal/blog
+- Cloudflare 项目名：`steroal`（账号 yidian_cha@163.com）
 
 ## 写一篇新文章
 
@@ -38,7 +38,7 @@ sidebar:
 
 ## 发布
 
-改完文章后，运行项目根目录的 `发布.bat`（或在终端里跑 `npm run build` 再 `npx wrangler pages deploy dist --project-name=zhetengji --branch=main`）。
+改完文章后，运行项目根目录的 `发布.bat`（或在终端里跑 `npm run build` 再 `npx wrangler pages deploy dist --project-name=steroal --branch=main`）。
 
 会先本地构建，再整包上传，约 30 秒。看到 `Deployment complete` 就生效了。
 
@@ -53,8 +53,8 @@ sidebar:
 |---|---|
 | `npm run dev` | 本地预览，改文件自动刷新（http://localhost:4321） |
 | `npm run build` | 构建到 `dist/` |
-| `npx wrangler pages deploy dist --project-name=zhetengji --branch=main` | 部署 |
-| `npx wrangler pages deployment list --project-name=zhetengji` | 看历史部署，可回滚 |
+| `npx wrangler pages deploy dist --project-name=steroal --branch=main` | 部署 |
+| `npx wrangler pages deployment list --project-name=steroal` | 看历史部署，可回滚 |
 
 ## 改样式
 
@@ -76,7 +76,13 @@ sidebar:
 
 ## 同步源码到 GitHub
 
-远端已经配好（`origin` → `https://github.com/steroal/zhetengji`），本地已有两次提交，**但还没推上去**——首次推送需要你在浏览器里登录一次 GitHub：
+远端已经配好（`origin` → `https://github.com/steroal/blog`），本地已有多次提交，**但还没推上去**。推送前需要先做一步：
+
+**GitHub 上的仓库现在叫 `zhetengji`，要改成 `blog`。** 打开
+<https://github.com/steroal/zhetengji/settings> → 第一栏 **Repository name** 改成 `blog` → 点 **Rename**。
+GitHub 会自动把旧地址重定向到新地址，所以本地 `origin` 已经是 `blog` 也没问题。
+
+然后把代码推上去（首次推送会弹一次浏览器登录）：
 
 ```bash
 cd M:/Wiki/projects/blog
