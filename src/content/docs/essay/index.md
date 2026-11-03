@@ -2,10 +2,9 @@
 title: 随笔
 description: 还没想清楚的想法、读书笔记，和一些不太技术的观察。
 sidebar:
+  hidden: true
   order: 2
 ---
-
-# 随笔
 
 这里还没什么内容。
 
