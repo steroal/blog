@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const SECTION_LABEL: Record<string, string> = {
+  tinker: '折腾',
+  essay: '随笔',
+};
+
+const docsRoot = path.resolve('src/content/docs');
+
+const docs = await getCollection('docs');
+
+const withTime = docs
+  .filter((d) => d.id !== 'index' && !d.id.endsWith('/index') && d.id !== 'about')
+  .map((d) => {
+    const guess =
+      (d as unknown as { filePath?: string }).filePath ?? path.join(docsRoot, `${d.id}.md`);
+    const abs = path.isAbsolute(guess) ? guess : path.resolve(guess);
+    let mtime = 0;
+    try {
+      mtime = fs.statSync(abs).mtimeMs;
+    } catch {
+      mtime = 0;
+    }
+    return { entry: d, mtime };
+  });
+
+const recent = withTime.sort((a, b) => b.mtime - a.mtime).slice(0, 8);
+
+const fmt = (ms: number) => {
+  if (!ms) return '';
+  const d = new Date(ms);
+  return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
+const hrefOf = (id: string) => `/${id}/`.replace(/\/+/g, '/');
+---
+
+<div class="recent-head not-content">
+  <h2>最近写的</h2>
+  <span class="recent-date">{recent.length} 条</span>
+</div>
+
+<ul class="recent-list not-content">
+  {
+    recent.map(({ entry, mtime }) => (
+      <li>
+        <a class="recent-item" href={hrefOf(entry.id)}>
+          <span class="recent-title">{entry.data.title}</span>
+          <span class="recent-tag">{SECTION_LABEL[entry.id.split('/')[0]] ?? '其他'}</span>
+          <span class="recent-date">{fmt(mtime)}</span>
+        </a>
+      </li>
+    ))
+  }
+</ul>

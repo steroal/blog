@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+
+type Section = {
+  dir: string;
+  title: string;
+  desc: string;
+  href: string;
+  tint: string;
+  icon: string;
+};
+
+const icons: Record<string, string> = {
+  wrench: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a3.7 3.7 0 0 1 5 5l-1.6 1.6-5-5z"/><path d="M13.1 7.9 4.5 16.5a2.1 2.1 0 0 0 3 3l8.6-8.6"/><path d="M4 20h.01"/></svg>`,
+  pen: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c.6-3.4 2-6.2 4.4-8.6C10.8 9 13.4 7.7 16 7"/><path d="M16 7l3-3 1.5 1.5-3 3z"/><path d="M4 20l3.5-1"/></svg>`,
+  spark: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 13.7 9l5.5 1.7-5.5 1.7L12 18l-1.7-5.6L4.8 10.7 10.3 9z"/><path d="M18.5 16.5 19.2 18.8 21.5 19.5 19.2 20.2 18.5 22.5 17.8 20.2 15.5 19.5 17.8 18.8z"/></svg>`,
+};
+
+const sections: Section[] = [
+  {
+    dir: 'tinker',
+    title: '折腾',
+    desc: '自建服务、静态站、脚本工具。把东西跑起来的过程，以及踩过的坑。',
+    href: '/tinker/',
+    tint: '#5b4bdb',
+    icon: icons.wrench,
+  },
+  {
+    dir: 'essay',
+    title: '随笔',
+    desc: '还没想清楚的想法、读书笔记、和一些不太技术的观察。',
+    href: '/essay/',
+    tint: '#0f8b8d',
+    icon: icons.pen,
+  },
+];
+
+const docs = await getCollection('docs');
+const countOf = (dir: string) =>
+  docs.filter((d) => d.id.startsWith(`${dir}/`) && !d.id.endsWith('/index')).length;
+---
+
+<div class="cat-grid not-content">
+  {
+    sections.map((s) => (
+      <a class="cat-card" href={s.href} style={`--card-tint:${s.tint}`}>
+        <span class="cat-icon" set:html={s.icon} />
+        <span class="cat-title">{s.title}</span>
+        <span class="cat-desc">{s.desc}</span>
+        <span class="cat-meta">
+          <span>{countOf(s.dir)} 篇</span>
+          <span class="arrow">→</span>
+        </span>
+      </a>
+    ))
+  }
+</div>

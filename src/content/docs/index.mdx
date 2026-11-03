@@ -1,0 +1,27 @@
+---
+title: 折腾记
+description: 工作之外的技术笔记：自建服务、静态站、AI 工具，以及一些还没想清楚的想法。
+template: splash
+hero:
+  tagline: 工作之外的技术笔记。自建服务、静态站、AI 工具，和一堆踩过的坑。
+  actions:
+    - text: 从第一篇开始
+      link: /tinker/why-static-blog/
+      icon: right-arrow
+    - text: 关于这个站
+      link: /about/
+      variant: minimal
+editUrl: false
+---
+
+import CategoryGrid from '../../components/CategoryGrid.astro';
+import RecentList from '../../components/RecentList.astro';
+
+<CategoryGrid />
+
+<RecentList />
+
+<div class="not-content" style="border-top:1px solid var(--sl-color-hairline-light);padding-top:1.5rem;color:var(--sl-color-gray-3);font-size:0.85rem;line-height:1.8">
+  <p style="margin:0 0 .4rem">全站静态生成，不依赖外网 CDN、字体服务或第三方统计。</p>
+  <p style="margin:0">按 <kbd>/</kbd> 或点击右上角搜索，支持中文全文检索。</p>
+</div>
