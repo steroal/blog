@@ -1,0 +1,97 @@
+---
+title: 关于
+description: 这个站是谁写的、写什么、怎么维护。
+sidebar:
+  order: 99
+editUrl: false
+---
+
+<div class="about-lead">
+  <div class="about-avatar">
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <defs>
+        <linearGradient id="ag" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#5b4bdb" />
+          <stop offset="0.6" stop-color="#a24bc0" />
+          <stop offset="1" stop-color="#f0a35e" />
+        </linearGradient>
+      </defs>
+      <circle cx="60" cy="60" r="60" fill="url(#ag)" />
+      <path d="M35 92c0-14 11-24 25-24s25 10 25 24z" fill="#fff" opacity="0.9" />
+      <path d="M42 46 45 26 63 40Z" fill="#2f2b3e" />
+      <path d="M78 46 75 26 57 40Z" fill="#2f2b3e" />
+      <circle cx="60" cy="52" r="22" fill="#2f2b3e" />
+      <path d="M50 51q5 6 10 0" fill="none" stroke="#fff8ee" stroke-width="2.8" stroke-linecap="round" />
+      <path d="M62 51q5 6 10 0" fill="none" stroke="#fff8ee" stroke-width="2.8" stroke-linecap="round" />
+      <path d="M58 60h4l-2 3z" fill="#f3a6b8" />
+    </svg>
+  </div>
+  <div class="about-id">
+    <p class="about-name">Steroal</p>
+    <p class="about-role">写代码的人，偶尔写字。</p>
+    <div class="about-links">
+      <a href="https://github.com/steroal" target="_blank" rel="noopener">GitHub</a>
+      <a href="/rss.xml">RSS</a>
+      <a href="mailto:hello@example.com">Email</a>
+    </div>
+  </div>
+</div>
+
+白天写嵌入式相关的代码，晚上折腾自己的机器。这个小站是工作之外的那部分——不属于任何公司，也不打算做成什么产品。
+
+## 这里有什么
+
+站里就三个分区，各有各的边界：
+
+- **折腾** — 动手做东西的全过程：为什么这么选、卡在哪一步、最后怎么跑通的。写给自己看，顺便给别人省点时间。
+- **随笔** — 还没想清楚的想法。可能过一阵自己就不同意了。
+- **索引** — 我长期在用的信息源和工具清单，定期更新，比翻收藏夹快。
+
+## 不写什么
+
+- 公司项目、客户信息、内网地址。这些放在另一套只在内网可见的站点里。
+- 转载和不加验证的二手结论。写下来的东西，要么自己跑过，要么标清楚出处。
+
+## 常驻工具箱
+
+<div class="tool-pills">
+  <span>Astro</span>
+  <span>TypeScript</span>
+  <span>Node.js</span>
+  <span>Python</span>
+  <span>Obsidian</span>
+  <span>Wireshark</span>
+  <span>ffmpeg</span>
+  <span>Linux</span>
+  <span>Claude Code</span>
+</div>
+
+## 几个问题
+
+<details class="faq">
+<summary>为什么不用 WordPress 或者 wiki？</summary>
+
+因为要的东西太简单了：一堆 Markdown，变成一堆 HTML。WordPress 要跑 PHP、连数据库、定期打补丁；这个站只需要一个能返回文件的服务器。少一个组件，就少一类半夜会挂的东西。
+
+</details>
+
+<details class="faq">
+<summary>文章可以转载吗？</summary>
+
+可以，注明出处和链接就行。发现错误欢迎直接说，改了我不会装作没发生过。
+
+</details>
+
+<details class="faq">
+<summary>为什么没有评论区？</summary>
+
+静态站没有后端，接第三方评论等于把一个外部服务嵌进来，还得管账号和垃圾信息。想聊的话题发邮件或者开 issue 更直接。
+
+</details>
+
+<details class="faq">
+<summary>这个站是怎么做的？</summary>
+
+Astro + Starlight，全站静态生成，托管在 Cloudflare Pages。写作在 Obsidian 里完成，推送即发布。搭建过程记在[第一篇](/tinker/why-static-blog/)里。
+
+</details>

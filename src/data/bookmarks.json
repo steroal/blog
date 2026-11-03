@@ -1,0 +1,5187 @@
+{
+  "generatedAt": "2026-11-03",
+  "total": 716,
+  "kept": 637,
+  "excluded": {
+    "内网或本地": 2,
+    "招聘网站": 46,
+    "敏感目录": 13,
+    "重复": 18,
+    "非法地址": 0
+  },
+  "sources": [
+    {
+      "browser": "Edge",
+      "file": "~/AppData/Local/Microsoft/Edge/User Data/Default/Bookmarks",
+      "count": 716
+    }
+  ],
+  "topHosts": [
+    {
+      "host": "blog.csdn.net",
+      "n": 112
+    },
+    {
+      "host": "zhuanlan.zhihu.com",
+      "n": 45
+    },
+    {
+      "host": "github.com",
+      "n": 28
+    },
+    {
+      "host": "cnblogs.com",
+      "n": 16
+    },
+    {
+      "host": "mp.weixin.qq.com",
+      "n": 12
+    },
+    {
+      "host": "bilibili.com",
+      "n": 9
+    },
+    {
+      "host": "articles.zsxq.com",
+      "n": 6
+    },
+    {
+      "host": "zhihu.com",
+      "n": 6
+    },
+    {
+      "host": "c.biancheng.net",
+      "n": 3
+    },
+    {
+      "host": "docs.qq.com",
+      "n": 3
+    },
+    {
+      "host": "download.csdn.net",
+      "n": 3
+    },
+    {
+      "host": "gitee.com",
+      "n": 3
+    }
+  ],
+  "groups": [
+    {
+      "name": "嵌入式与底层",
+      "items": [
+        {
+          "title": "韦东山freeRTOS快速入门",
+          "url": "https://www.100ask.net/p/t_pc/course_pc_detail/column/p_626b6273e4b0812e17932906",
+          "host": "100ask.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "360集团校园招聘",
+          "url": "https://360campus.zhiye.com/personal/deliveryRecord",
+          "host": "360campus.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "OpenEdv-开源电子网-正点原子论坛",
+          "url": "http://47.111.11.73/forum.php",
+          "host": "47.111.11.73",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "What is the abbreviation for Temperature?",
+          "url": "https://www.abbreviations.com/abbreviation/Temperature",
+          "host": "abbreviations.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "晶晨半导体 初筛中",
+          "url": "https://amlogicsh.zhiye.com/personal/deliveryRecord",
+          "host": "amlogicsh.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "拓竹科技 初筛中",
+          "url": "https://bambulab.jobs.feishu.cn/campus/position/application",
+          "host": "bambulab.jobs.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "FreeRTOS源码探析之——软件定时器-云社区-华为云",
+          "url": "https://bbs.huaweicloud.com/blogs/297560#:~:text=%E6%BA%A2%E5%87%BA%E5%AE%9A%E6%97%B6%E5%99%A8%E5%88%97%E8%A1%A8%20pxOverflowTimerList%20%EF%BC%9A%E5%9C%A8%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%99%A8%E6%BA%A2%E5%87%BA%E7%9A%84%E6%97%B6%E5%80%99%E4%BD%BF%E7%94%A8%EF%BC%8C%E4%BD%9C%E7%94%A8%E4%B8%8EpxCurrentTimerList%E4%B8%80%E8%87%B4%E3%80%82%20%E5%AE%9A%E6%97%B6%E5%99%A8%E5%88%97%E8%A1%A8%E4%BC%9A%E6%8C%89%E7%85%A7%E5%94%A4%E9%86%92%E6%97%B6%E9%97%B4%E4%BB%8E%E6%97%A9%E5%88%B0%E6%99%9A%E6%8C%82%E6%8E%A5%E5%9C%A8%E5%BD%93%E5%89%8D%E5%AE%9A%E6%97%B6%E5%99%A8%E5%88%97%E8%A1%A8%E4%B8%AD%EF%BC%8C%E5%94%A4%E9%86%92%E6%97%B6%E9%97%B4%E5%A6%82%E6%9E%9C%E6%BA%A2%E5%87%BA%E4%BA%86%E5%B0%B1%E6%8C%82%E6%8E%A5%E5%9C%A8%E6%BA%A2%E5%87%BA%E5%AE%9A%E6%97%B6%E5%99%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E3%80%82,%E5%BD%93%E7%B3%BB%E7%BB%9F%E8%8A%82%E6%8B%8D%E6%BA%A2%E5%87%BA%E4%B9%8B%E5%90%8E%EF%BC%8C%E4%B8%A4%E4%B8%AA%E5%88%97%E8%A1%A8%E7%9A%84%E5%8A%9F%E8%83%BD%E4%BC%9A%E8%BF%9B%E8%A1%8C%E4%BA%A4%E6%8D%A2%EF%BC%8C%E5%8D%B3%E5%BD%93%E5%89%8D%E5%88%97%E8%A1%A8%E5%8F%98%E4%B8%BA%E6%BA%A2%E5%87%BA%E5%88%97%E8%A1%A8%EF%BC%8C%E6%BA%A2%E5%87%BA%E5%88%97%E8%A1%A8%E5%8F%98%E4%B8%BA%E5%BD%93%E5%89%8D%E5%88%97%E8%A1%A8%E3%80%82%20%E6%AD%A4%E5%A4%96%EF%BC%8CFreeRTOS%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%99%A8%E8%BF%98%E4%BD%BF%E7%94%A8%E4%BA%86%E4%B8%80%E4%B8%AA%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97%20xTimerQueue%20%EF%BC%8C%E5%88%A9%E7%94%A8%E2%80%9C%E5%AE%9A%E6%97%B6%E5%99%A8%E5%91%BD%E4%BB%A4%E9%98%9F%E5%88%97%E2%80%9D%E5%90%91%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%99%A8%E4%BB%BB%E5%8A%A1%E5%8F%91%E9%80%81%E4%B8%80%E4%BA%9B%E5%91%BD%E4%BB%A4%EF%BC%8C%E4%BB%BB%E5%8A%A1%E5%9C%A8%E6%8E%A5%E6%94%B6%E5%88%B0%E5%91%BD%E4%BB%A4%E5%B0%B1%E4%BC%9A%E5%8E%BB%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4%E5%AF%B9%E5%BA%94%E7%9A%84%E7%A8%8B%E5%BA%8F%EF%BC%8C%E6%AF%94%E5%A6%82%E5%90%AF%E5%8A%A8%E5%AE%9A%E6%97%B6%E5%99%A8%EF%BC%8C%E5%81%9C%E6%AD%A2%E5%AE%9A%E6%97%B6%E5%99%A8%EF%BC%8C%E5%A4%8D%E4%BD%8D%E3%80%81%E5%88%A0%E9%99%A4%E3%80%81%E6%94%B9%E5%8F%98%E5%91%A8%E6%9C%9F%E7%AD%89%E3%80%82",
+          "host": "bbs.huaweicloud.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【程序员老秦】6个企业级C/C++嵌入式项目推荐和详细版的学习路线来了_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV13L411X7Qw/?spm_id_from=333.337.search-card.all.click&vd_source=dfef2bf92245fbbb7cc219332703a5c8",
+          "host": "bilibili.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【讲的太透了！嵌入式经典总线协议】UART、RS232、RS485、IIC、SPI串口协议精讲_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1WK4y1o7rd/?spm_id_from=333.999.0.0&vd_source=dfef2bf92245fbbb7cc219332703a5c8",
+          "host": "bilibili.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "嵌入式系统大作业--基于STM32F1实现植物大战僵尸游戏_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV16t4y1k7xL/?spm_id_from=333.788.recommend_more_video.2&vd_source=dfef2bf92245fbbb7cc219332703a5c8",
+          "host": "bilibili.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "Linux驱动入门小项目 | 智能家居系统 | 学习一个多月的成果_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1n8411o77i/?spm_id_from=333.1007.tianma.10-3-37.click&vd_source=dfef2bf92245fbbb7cc219332703a5c8",
+          "host": "bilibili.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": ".bss段和.data段的区别_bss和data_水耗子的博客-CSDN博客",
+          "url": "https://blog.csdn.net/jumper511/article/details/19902013",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) 【毕业设计】stm32机器视觉的人脸识别系统 - 单片机 物联网 嵌入式_stm32人脸识别_Mdc_stdio的博客-CSDN博客",
+          "url": "https://blog.csdn.net/m0_71572576/article/details/126358763",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) 初级嵌入式软件工程师学习路线（在校本科或者硕士）_Ideal Dragon的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_22121229/article/details/89312276#:~:text=%E5%85%B7%E4%BD%93%E7%9A%84%E5%AE%9E%E6%96%BD%E8%B7%AF%E7%BA%BF%EF%BC%9A%201%201%E3%80%81%E6%89%93%E5%A5%BD%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E7%BC%96%E7%A8%8B%E7%9A%84%E5%9F%BA%E7%A1%80%202%202%E3%80%81%E5%AD%A6%E4%B9%A0ARM%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E7%BC%96%E7%A8%8B%203,3%E3%80%81%E5%AD%A6%E4%B9%A0%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%9E%84%E5%BB%BA%204%204%E3%80%81%E5%AD%A6%E4%B9%A0%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%205%205%E3%80%81%E5%AD%A6%E4%B9%A0%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%206%206%E3%80%81%E5%AE%8C%E6%88%90%E4%B8%80%E4%B8%AA%E7%BB%BC%E5%90%88%E9%A1%B9%E7%9B%AE",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) 嵌入式八股文汇总_Miss shirly的博客-CSDN博客",
+          "url": "https://blog.csdn.net/xikasim/article/details/128100713",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) K210开发板学习笔记（三）——STM32+K210+SD卡实现人脸识别（完整K210代码）_Embedded learner的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_44795447/article/details/114642239",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) K210实现人脸识别（附代码解读）_k210人脸识别_晨少爱学习的博客-CSDN博客",
+          "url": "https://blog.csdn.net/HuangChen666/article/details/113995079",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) 【STM32篇】驱动MXL90614红外测温模块_mlx90614红外测温模块_这可不是猴的博客-CSDN博客",
+          "url": "https://blog.csdn.net/we_long/article/details/128590285",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) 肝了半个月，我整理出了这篇嵌入式开发学习学习路线+知识点梳理）_嵌入式学习路线_CodeSheep程序羊的博客-CSDN博客",
+          "url": "https://blog.csdn.net/wangshuaiwsws95/article/details/107830452",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) 函数调用过程中函数栈详解_芹泽的博客-CSDN博客",
+          "url": "https://blog.csdn.net/u012218309/article/details/81669227",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) 嵌入式Linux入门指南（一）——学习路线篇_嵌入式linux学习路线_科技灯塔的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_51627076/article/details/122588888#:~:text=%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%80%EF%BC%89%E2%80%94%E2%80%94%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E7%AF%87%201,%E7%AC%AC%E4%B8%80%E7%A7%8D%E3%80%81%E5%83%8F%E5%AD%A6%E4%B9%A0%E5%8D%95%E7%89%87%E6%9C%BA%E4%B8%80%E6%A0%B7%EF%BC%8C%E4%BB%8E%E5%BA%95%E5%B1%82%E5%90%91%E4%B8%8A%E5%AD%A6%E4%B9%A0%EF%BC%8CUboot%E7%A7%BB%E6%A4%8D-%3ELinux%E7%A7%BB%E6%A4%8D-%3ELinux%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91-%3ElINUX%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BB%A5%E5%88%86%E6%9E%90%E6%BA%90%E4%BB%A3%E7%A0%81%E7%9A%84%E6%96%B9%E5%BC%8F%E8%BF%9B%E8%A1%8C%EF%BC%89%E3%80%82%202%20%E7%AC%AC%E4%BA%8C%E7%A7%8D%E3%80%81%E4%BB%8E%E9%A1%B6%E5%B1%82%E5%BA%94%E7%94%A8%E5%B1%82%E5%90%91%E4%B8%8B%E5%AD%A6%E4%B9%A0%EF%BC%8CLinux%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91-%3ELinux%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91-%3ELinux%E7%A7%BB%E6%A4%8D-%3EUboot%E7%A7%BB%E6%A4%8D%EF%BC%88%E4%B8%AD%E9%97%B4%E8%BF%98%E6%9C%89%E4%BA%9B%E7%BB%86%E6%9E%9D%E6%9C%AB%E8%8A%82%E7%9A%84%E9%83%A8%E5%88%86%E6%9C%AA%E5%88%97%E5%87%BA%EF%BC%89%E3%80%82",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) C语言面试重写memcpy函数_memcpy函数重写_不悔哥的博客-CSDN博客",
+          "url": "https://blog.csdn.net/buhuidage/article/details/121368266",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) FreeRTOS高级篇10---系统节拍时钟分析_configtick_rate_hz_研究是为了理解的博客-CSDN博客",
+          "url": "https://blog.csdn.net/zhzht19861011/article/details/52051921",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) STM32硬件I2C与软件模拟I2C超详解_stm32 i2c_rivencode的博客-CSDN博客",
+          "url": "https://blog.csdn.net/k666499436/article/details/124686559",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) 【LabVIEW】子vi面板调用_labview子面板_摸鱼摸鱼疯狂摸鱼的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_64530445/article/details/131600185",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) CAN 邮箱的理解_can 发送邮箱_木木总裁的博客-CSDN博客",
+          "url": "https://blog.csdn.net/ll148305879/article/details/97369515",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) CAN通信的数据帧和远程帧_can远程帧数据帧区别_夜星辰2023的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_37787043/article/details/80906905#:~:text=%E5%8F%91%E9%80%81%E7%9A%84%E6%95%B0%E6%8D%AE%E5%B0%B1%E6%98%AF%E6%95%B0%E6%8D%AE%E5%B8%A7%EF%BC%81%20%E8%BF%9C%E7%A8%8B%E5%B8%A7%E5%B0%B1%E5%83%8F%E5%91%BD%E4%BB%A4%2C%E5%91%BD%E4%BB%A4%E7%9B%B8%E5%BA%94%E7%9A%84%E8%8A%82%E7%82%B9%E8%BF%94%E5%9B%9E%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%8C%85.%20%E5%BA%94%E7%94%A8%EF%BC%88%E5%88%92%E9%87%8D%E7%82%B9%EF%BC%89,%EF%BC%9A%E5%A6%82%E6%9E%9C%E9%9C%80%E8%A6%81CAN%E4%B8%8A%E6%9F%90%E4%B8%AA%E8%8A%82%E7%82%B9%E5%90%91%E4%BD%A0%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E7%94%A8%E8%BF%99%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84ID%EF%BC%8C%E5%8F%91%E9%80%81%E4%B8%80%E4%B8%AARemote%20frame%EF%BC%88%E8%BF%9C%E7%A8%8B%E5%B8%A7%EF%BC%89%EF%BC%8C%E8%BF%99%E6%A0%B7%E8%8A%82%E7%82%B9%E6%8E%A5%E6%94%B6%E5%88%B0%E8%BF%99%E4%B8%AARemote%20frame%E4%B9%8B%E5%90%8E%E4%BC%9A%E8%87%AA%E5%8A%A8%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE%E7%BB%99%E4%BD%A0%EF%BC%81",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) CAN通信详解(全)_can通信的详细讲解_adazone的博客-CSDN博客",
+          "url": "https://blog.csdn.net/adazone/article/details/87921510",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) STM32之CAN通信_stm32can通信_韦东山的博客-CSDN博客",
+          "url": "https://blog.csdn.net/thisway_diy/article/details/117702782",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "(LDD3读书记录)Chapter-3:字符驱动_字符设备 何时调用release函数的_forsakening的博客-CSDN博客",
+          "url": "https://blog.csdn.net/zhengxianghdu/article/details/9101313",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "（stm32之HAL库）UART工作在DMA模式要打开串口中断吗？_为什么dma串口接收还要开中断_蚊蚁菌的博客-CSDN博客",
+          "url": "https://blog.csdn.net/m0_47010960/article/details/128000029",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【精选】freertos与STM32分析栈、堆、全局区、常量区、代码区、RAM、ROM，及如何分配堆栈空间_rtos 全局数据区大小是多少-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_45456099/article/details/113726120",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【强烈推荐】基于STM32的TFT-LCD各种显示实现（内容详尽含代码）_stm32 tftlcd_混分巨兽龙某某的博客-CSDN博客",
+          "url": "https://blog.csdn.net/black_sneak/article/details/125583293",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【LwIP】移植（FreeRTOS）_lwip移植_哐哐哐 Quan的博客-CSDN博客",
+          "url": "https://blog.csdn.net/tq384998430/article/details/96478806",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "/dev 目录下设备节点生成与访问过程 内核源码详解_mmc_blk_probe_dongzhiyan_hjp的博客-CSDN博客",
+          "url": "https://blog.csdn.net/hu1610552336/article/details/113791632",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "反汇编文件（.dis文件）的理解_aoxiang_ywj的博客-CSDN博客",
+          "url": "https://blog.csdn.net/baidu_37973494/article/details/82796800",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "关于HAL_UART_Transmit函数和printf函数发送串口字符串的问题_hal库发送字符_名字以后再说力的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_59727315/article/details/131605647",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "关于STM32的USART_GetFlagStatus和USART_GetITStatus解析（异步通信）_莫凭栏_的博客-CSDN博客",
+          "url": "https://blog.csdn.net/u010834669/article/details/79367109",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "回车换行问题0x0D和0x0A_在一般情形下,仅仅忽略对回车换行的过滤 ( \\x0d , \\x0a ) 有可能会导致如下哪种安_laoma4102的博客-CSDN博客",
+          "url": "https://blog.csdn.net/laoma4102/article/details/7165179",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "零基础自学STM32-野火——GPIO复习篇——使用绝对地址操作GPIO_gpio端口地址-CSDN博客",
+          "url": "https://blog.csdn.net/Fecter11/article/details/125547901",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "内核、设备树、文件系统_内核和设备树_牛顿爱吃水果的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_38583464/article/details/111475946",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "嵌入式Linux和stm32区别? 之间有什么关系吗？",
+          "url": "https://blog.csdn.net/weixin_43982452/article/details/124340542#:~:text=%E7%94%B1%E4%B8%8D%E5%90%8C%E7%9A%84%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%A4%84%E7%90%86%E5%99%A8%EF%BC%8C%E8%A1%8D%E7%94%9F%E5%87%BA%E4%B8%8D%E5%90%8C%E7%9A%84%E8%81%8C%E4%B8%9A%E6%96%B9%E5%90%91%EF%BC%8C%E4%B8%BB%E6%B5%81%E7%9A%84%E6%9C%89%E4%BB%A5%E4%B8%8B%E5%87%A0%E4%B8%AA%EF%BC%9A%201.%E5%8D%95%E7%89%87%E6%9C%BA%E5%B7%A5%E7%A8%8B%E5%B8%88,2.Linux%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%203.Linux%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "设备节点如何与设备驱动关联_linux设备驱动节点如何和设备进行关联_正在起飞的蜗牛的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_42031299/article/details/124557451",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "设计软件定时器_软件定时器设计_ProgressingForever的博客-CSDN博客",
+          "url": "https://blog.csdn.net/tanguohua_666/article/details/93287815",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "系统调用和驱动程序中相应函数的参数对应关系_驱动写函数参数可以和应用程序不一样吗_kakadeyisheng1990的博客-CSDN博客",
+          "url": "https://blog.csdn.net/kakadeyisheng1990/article/details/44940829",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "正点原子stm32--串口通信实验讲解里关于USART_RX_STA的问题与思考_森 屿 麋 鹿的博客-CSDN博客",
+          "url": "https://blog.csdn.net/milu_yu/article/details/108523888",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ADC采样时间、采样周期、采样频率计算方法_adc采样频率_black0591的博客-CSDN博客",
+          "url": "https://blog.csdn.net/black0591/article/details/103187450#:~:text=ADC%E5%8F%AF%E7%BC%96%E7%A8%8B%E7%9A%84%E9%80%9A%E9%81%93%E9%87%87%E6%A0%B7%E6%97%B6%E9%97%B4%E6%88%91%E4%BB%AC%E9%80%8971.5%20%E5%91%A8%E6%9C%9F%EF%BC%8C%E5%88%99ADC%E9%87%87%E6%A0%B7%E5%91%A8%E6%9C%9F%E4%B8%80%E5%91%A8%E6%9C%9F%E5%A4%A7%E5%B0%8F%E4%B8%BA,%28100us%2F71.5%29%E3%80%82%20100us%2F71.5%E2%89%881.3986us%EF%BC%8CADC%E6%97%B6%E9%92%9F%E9%A2%91%E7%8E%87%E4%B8%BA1%2F1.3986us%3D1%2F0.0000013986s%E2%89%880.715MHz%E3%80%82",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ARM 之十五 扫盲 ARM 架构、指令集、ARM IP、授权方式_arm架构_ZC·Shou的博客-CSDN博客",
+          "url": "https://blog.csdn.net/ZCShouCSDN/article/details/120351435",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ARM内核STM32学习笔记——Thumb-2指令集与ARM指令集_thumb2指令集_SGJ_ki的博客-CSDN博客",
+          "url": "https://blog.csdn.net/SGJ_K/article/details/123163509",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ARM异常向量表中LDR指令、LDR伪指令的来龙去脉_a747lulu747的博客-CSDN博客",
+          "url": "https://blog.csdn.net/a747lulu747/article/details/9699323",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "BSP，讲的很好。_bsp和驱动的区别_只学最有用的已经学不完不做学究的博客-CSDN博客",
+          "url": "https://blog.csdn.net/fengyunjh6/article/details/18218869",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "C/C++结构体存储_c++ 结构体存储_icedxu的博客-CSDN博客",
+          "url": "https://blog.csdn.net/feixi7358/article/details/79752719",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "C语言——软件定时器_c 语言定时器框架_欲盖弥彰1314的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_36413982/article/details/103988223",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "cortex-M3 的SVC、PendSV异常，与操作系统(ucos实时系统)_郭忠伟-写录的博客-CSDN博客",
+          "url": "https://blog.csdn.net/guozhongwei1/article/details/49544671",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "DDR、Flash、Ram、Rom的区别_ddr和flash的区别_哐哐砸电脑的博客-CSDN博客",
+          "url": "https://blog.csdn.net/h_8410435/article/details/101718769",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "do{...}while(0)的用法,超详解_do while(0)_JXDZ的博客-CSDN博客",
+          "url": "https://blog.csdn.net/dldw8816/article/details/86519575",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "FreeRTOS断言“freertos\\portable\\rvds\\arm_cm3\\port.c,244“的解决方法_LeaFend_的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_46961467/article/details/107255365",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "FreeRTOS高级篇6---FreeRTOS信号量分析_freertos 信号量_研究是为了理解的博客-CSDN博客",
+          "url": "https://blog.csdn.net/zhzht19861011/article/details/51537234",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "hex文件格式剖析，以及hex与bin文件互相转换-CSDN博客",
+          "url": "https://blog.csdn.net/little_grapes/article/details/128497777",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "Linux内核对设备树的处理_of_find_device_by_node-CSDN博客",
+          "url": "https://blog.csdn.net/SlowIsFastLemon/article/details/109096066",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "Linux嵌入式开发 -- 设置PLL及各路PFD_pll pfd_搁浅`的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_45804423/article/details/122812592",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "Linux驱动开发之头文件寻找路径说明及头文件简介_#include<linux/fs.h>_风吹花中花吹风的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_35333978/article/details/107314651",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "Makefile文件_makefile 如何判断文件是否修改过_Kelsey11的博客-CSDN博客",
+          "url": "https://blog.csdn.net/Kelsey11/article/details/76666087",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32 407 USART+DMA接收(不用中断)_suolianjun的博客-CSDN博客",
+          "url": "https://blog.csdn.net/suolianjun/article/details/100852412",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32 FSMC/FMC原理保姆级讲解(一)_Z小旋的博客-CSDN博客",
+          "url": "https://blog.csdn.net/as480133937/article/details/123740365",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32407 FreeRtos系统下lwip实现发送和接收数据包进行链路测试_lwip tcp收发_m0_59949484的博客-CSDN博客",
+          "url": "https://blog.csdn.net/m0_59949484/article/details/130735211?spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-15-130735211-blog-109579940.235%5Ev38%5Epc_relevant_sort&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-15-130735211-blog-109579940.235%5Ev38%5Epc_relevant_sort&utm_relevant_index=22",
+          "host": "blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "黑芝麻智能科技 初筛中",
+          "url": "https://bsthr.zhiye.com/personal/deliveryRecord",
+          "host": "bsthr.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "珠海全志科技股份 初筛中",
+          "url": "https://campus.allwinnertech.com/campus-recruitment/allwinnertech/43436/#/candidateHome/applications",
+          "host": "campus.allwinnertech.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "丰疆智能校招",
+          "url": "https://campus.fjdynamics.cn/#/candidateHome/applications",
+          "host": "campus.fjdynamics.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "投递记录 - 科大讯飞校园招聘",
+          "url": "https://campus.iflytek.com/official-pc/delivery",
+          "host": "campus.iflytek.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "海康威视 笔试完",
+          "url": "https://campushr.hikvision.com/myDelivery",
+          "host": "campushr.hikvision.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "realme  初筛中",
+          "url": "https://campushr.realme.com/SU649b94d92f9d24535039c6bf/pb/account.html#/myDeliver",
+          "host": "campushr.realme.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "嘉楠 不合适",
+          "url": "https://canaan-creative.zhiye.com/Portal/Apply/Index",
+          "host": "canaan-creative.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "ArcSoft虹软  人才库",
+          "url": "https://career.arcsoft.com.cn/personal/deliveryRecord",
+          "host": "career.arcsoft.com.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "毫末智行科技  初筛中",
+          "url": "https://career.haomoai.com/campus-recruitment/haomo/44789#/candidateHome/applications",
+          "host": "career.haomoai.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "荣耀招聘  初筛中",
+          "url": "https://career.hihonor.com/SU60eea919bef57c1023f6fe78/pb/account.html#/myDeliver",
+          "host": "career.hihonor.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "CVTE个人中心  笔试",
+          "url": "https://careers.cvte.com/zone/resume/applications",
+          "host": "careers.cvte.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "美的集团 初筛中",
+          "url": "https://careers.midea.com/schoolOut/apply",
+          "host": "careers.midea.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "云鲸智能",
+          "url": "https://careers.narwal.com/personal/deliveryRecord",
+          "host": "careers.narwal.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "OPPO 无岗位",
+          "url": "https://careers.oppo.com/university/oppo/center/history",
+          "host": "careers.oppo.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "RT-Thread-RT-Thread应用项目汇总RT-Thread问答社区 - RT-Thread",
+          "url": "https://club.rt-thread.org/ask/article/aa977b5845b4ac0c.html",
+          "host": "club.rt-thread.org",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "汇编语言程序设计 - 搜索",
+          "url": "https://cn.bing.com/search?q=%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1&aqs=edge..69i57&FORM=ANCMS9&PC=DCTS",
+          "host": "cn.bing.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "\\r,\\n,\\r\\n的区别 - 小 天 - 博客园",
+          "url": "https://www.cnblogs.com/xiaotiannet/p/3510586.html",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "5、checksum(校验和)的实现 - SBT_Jack - 博客园",
+          "url": "https://www.cnblogs.com/sbtblogs/p/12228406.html",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "链接脚本(Linker Scripts)语法和规则解析(自官方手册) - BSP-路人甲 - 博客园",
+          "url": "https://www.cnblogs.com/jianhua1992/p/16852784.html",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "哪5种IO模型？什么是select/poll/epoll？同步异步阻塞非阻塞有啥区别？全在这讲明白了！ - 杨建勇 - 博客园",
+          "url": "https://www.cnblogs.com/yangjianyong-bky/p/15327722.html",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "CSAPP Lab：Bomb Lab——从拆弹到爆炸。。。 - Jarvis_Wu - 博客园",
+          "url": "https://www.cnblogs.com/jarviswhj/p/9349503.html#:~:text=CSAPP%20Lab%EF%BC%9ABomb%20Lab%E2%80%94%E2%80%94%E4%BB%8E%E6%8B%86%E5%BC%B9%E5%88%B0%E7%88%86%E7%82%B8%E3%80%82%20%E3%80%82%20%E3%80%82,%E8%BF%99%E4%B8%AA%E5%AE%9E%E9%AA%8C%E7%9A%84%E8%A6%81%E5%81%9A%E7%9A%84%E6%98%AF%E7%94%A8gdb%E9%80%86%E5%90%91%E4%B8%80%E6%AE%B5code%EF%BC%8C%E9%80%9A%E8%BF%87%E6%9F%A5%E7%9C%8B%E6%B1%87%E7%BC%96%E4%BB%A3%E7%A0%81%E4%BB%A5%E5%8F%8A%E5%8D%95%E6%AD%A5%E8%B0%83%E8%AF%95%E6%89%BE%E5%87%BA%E8%BF%99%E6%AE%B5code%E9%9C%80%E8%A6%81%E4%BD%A0%E5%A1%AB%E5%85%A5%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%8C%E5%A5%BD%E5%83%8F%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E4%B8%8D%E4%B8%80%E6%A0%B7%EF%BC%8C%E6%89%80%E4%BB%A5%E6%AF%8F%E4%B8%AA%E4%BA%BA%E9%83%BD%E9%9C%80%E8%A6%81%E6%89%BE%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8B%86%E5%BC%B9%E5%AF%86%E7%A0%81%EF%BC%8C%E5%BE%88%E6%9C%89%E6%84%8F%E6%80%9D%E3%80%82%20%E5%AE%9E%E9%AA%8C%E4%B8%80%E5%85%B1%E6%9C%896%E5%85%B3%EF%BC%8C%E6%88%91%E4%BB%AC%E4%B8%80%E5%85%B3%E5%85%B3%E6%9D%A5%E7%9C%8B%E4%B8%80%E4%B8%8B%3A%20phase_1%20%E6%89%93%E5%BC%80bomb.c%E7%9C%8B%E4%BA%9Bc%E6%BA%90%E7%A0%81%EF%BC%88%E8%BF%99%E9%87%8C%E7%9A%84%E6%A0%B8%E5%BF%83%E6%96%B9%E6%B3%95%E5%B7%B2%E7%BB%8F%E8%A2%AB%E5%88%A0%E9%99%A4%E4%BA%86%EF%BC%8C%E5%8F%AA%E8%83%BD%E7%9C%8B%E5%88%B0%E6%9C%80%E5%A4%96%E5%B1%82%E7%9A%84%E4%BB%A3%E7%A0%81%EF%BC%8C%E4%BD%86%E8%83%BD%E5%BE%97%E5%88%B0%E4%B8%80%E4%BA%9B%E7%BA%BF%E7%B4%A2%EF%BC%89%E3%80%82%20%E5%BE%88%E5%AE%B9%E6%98%93%E5%B0%B1%E5%8F%91%E7%8E%B0%E8%BF%99%E4%B8%AAphase_1%E6%96%B9%E6%B3%95%E6%98%AF%E7%AC%AC%E4%B8%80%E9%A2%98%E7%9A%84%E6%A0%B8%E5%BF%83%E6%96%B9%E6%B3%95%EF%BC%8C%E7%9B%B4%E6%8E%A5%E9%80%86%E5%90%91%E5%AE%83%EF%BC%8C%E7%9C%8B%E4%B8%8B%E5%AE%83%E7%9A%84%E6%B1%87%E7%BC%96%E3%80%82",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "pinctrl(1)——pinctrl子系统的使用 - Hello-World3 - 博客园",
+          "url": "https://www.cnblogs.com/hellokitty2/p/12501493.html",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32固件库详解 - emouse - 博客园",
+          "url": "https://www.cnblogs.com/emouse/archive/2011/11/29/2268441.html#4498469",
+          "host": "cnblogs.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "关于操作系统：驱动程序如何成为内核的一部分？ | 码农家园",
+          "url": "https://www.codenong.com/3663897/",
+          "host": "codenong.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "浙江大华技术股份有限公司",
+          "url": "https://dahua.zhiye.com/personal/deliveryRecord",
+          "host": "dahua.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "11. 任务延时列表的实现 — FreeRTOS内核实现与应用开发实战指南—基于STM32 文档",
+          "url": "https://doc.embedfire.com/rtos/freertos/zh/latest/zero_to_one/timer.html",
+          "host": "doc.embedfire.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "2024届校招汇总大全",
+          "url": "https://docs.qq.com/sheet/DQWtKUFBPd25ZdElm?tab=000001&_t=1694100202587&u=01da069c9a86494f878590ab9f1fbe81",
+          "host": "docs.qq.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "全网最全 100G嵌入式物联网资料包",
+          "url": "https://docs.qq.com/doc/DUllUdFlLUkRsbUpL",
+          "host": "docs.qq.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) 嵌入式培训经验分享——网络编程项目实战（在线电子词典）_嵌入式在线编程资源-CSDN文库",
+          "url": "https://download.csdn.net/download/x2751961352/86509638",
+          "host": "download.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "NI数据采集卡使用入门_NI-MAX基本教程-其它文档类资源-CSDN文库",
+          "url": "https://download.csdn.net/download/zhiguo123/2143619?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-2143619-blog-100520006.235%5Ev38%5Epc_relevant_anti_vip&depth_1-utm_source=distribute.pc_relevant.none-task-download-2%7Edefault%7ECTRLIST%7EPaid-1-2143619-blog-100520006.235%5Ev38%5Epc_relevant_anti_vip&utm_relevant_index=2",
+          "host": "download.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32F4x7+freertos+lwip+ssl+MQTT-(MDK5)稳定可靠_stm32wolfssl资源-CSDN文库",
+          "url": "https://download.csdn.net/download/lanhaixuan1/10964546?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7EPaid-1-10964546-blog-108296539.235%5Ev38%5Epc_relevant_sort&depth_1-utm_source=distribute.pc_relevant_t0.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7EPaid-1-10964546-blog-108296539.235%5Ev38%5Epc_relevant_sort&utm_relevant_index=1",
+          "host": "download.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "电子发烧友网",
+          "url": "https://www.elecfans.com/",
+          "host": "elecfans.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "新易盛  初筛中",
+          "url": "https://eoptolink.zhiye.com/personal/deliveryRecord",
+          "host": "eoptolink.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "职位搜索 | 乐鑫科技",
+          "url": "https://www.espressif.com/zh-hans/join-us/job-search?field_classification_value=Campus&platform=null",
+          "host": "espressif.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "职位搜索 | 乐鑫科技",
+          "url": "https://www.espressif.com/zh-hans/join-us/job-search?title=&field_classification_value=Campus&field_job_function_select_tid%5B%5D=103",
+          "host": "espressif.com",
+          "group": "嵌入式与底层",
+          "folder": "CAN",
+          "browser": "Edge"
+        },
+        {
+          "title": "粉笔网题库",
+          "url": "https://www.fenbi.com/spa/tiku/guide/catalog/xingce?prefix=xingce",
+          "host": "fenbi.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "命运的玩笑/在线词典 - 码云 - 开源中国",
+          "url": "https://gitee.com/chao_12345/online-dictionary",
+          "host": "gitee.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "在线词典: 嵌入式linux应用层开发练习项目在线词典",
+          "url": "https://gitee.com/chao_12345/online-dictionary?_from=gitee_search",
+          "host": "gitee.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "在线英英词典: Linux操作系统+Vim编辑C语言+SQLite信息存储+文件读取+多进程并发服务+TCP协议 项目功能描述：用户注册和登录验证；服务器端将用户信息和历史记录保存在数据库中；客户端输入用户名和密码，服务端在数据库中查找、匹",
+          "url": "https://gitee.com/chenjiehuai/EnglishMS?_from=gitee_search",
+          "host": "gitee.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - bambooww/iot-tree: A IOT Server,support Connector,tree management and HMI",
+          "url": "https://github.com/bambooww/iot-tree",
+          "host": "github.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - hansonwang99/JavaCollection: Java开源项目之「自学编程之路」：学习指南+面试指南+资源分享+技术文章",
+          "url": "https://github.com/hansonwang99/JavaCollection",
+          "host": "github.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - imKeYan/EmbedBooks: 嵌入式经典书籍分享，C程序员常读书单整理，含下载地址，成体系提升技术能力。书籍资源包括电子基础、C/C++、Arm架构、Linux、网络、设计模式、各类行业报告等等。",
+          "url": "https://github.com/imKeYan/EmbedBooks#5.2---Linux",
+          "host": "github.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - xiaowenxia/embedded-notes: 嵌入式linux软件开发、嵌入式linux驱动开发、c语言、单片机开发、IOT开发等面试要点记录",
+          "url": "https://github.com/xiaowenxia/embedded-notes",
+          "host": "github.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "swtimer/software_timer1.c at master · guangjieMVP/swtimer",
+          "url": "https://github.com/guangjieMVP/swtimer/blob/master/software_timer1.c",
+          "host": "github.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "(6条消息) LabVIEW Arduino TCP/IP远程智能家居系统（项目篇—5）_物联网 arduinouno tcp/ip_不脱发的程序猿的博客-CSDN博客",
+          "url": "https://handsome-man.blog.csdn.net/article/details/125418730",
+          "host": "handsome-man.blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "不脱发的程序猿的博客_CSDN博客",
+          "url": "https://handsome-man.blog.csdn.net/?type=blog",
+          "host": "handsome-man.blog.csdn.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "华创微官方网申渠道",
+          "url": "https://hcmicro.zhiye.com/personal/deliveryRecord",
+          "host": "hcmicro.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "三环集团招聘",
+          "url": "https://hr.cctc.cc/record",
+          "host": "hr.cctc.cc",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "TP-LINK 招聘",
+          "url": "https://hr.tp-link.com.cn/socialDelivery",
+          "host": "hr.tp-link.com.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "汇川技术 初筛中",
+          "url": "http://inovance.zhiye.com/Portal/Apply/Index",
+          "host": "inovance.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "影石创新科技 初筛中",
+          "url": "https://insta360.zhiye.com/personal/deliveryRecord",
+          "host": "insta360.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "关于FreeRTOS任务栈的那点事儿 - 简书",
+          "url": "https://www.jianshu.com/p/52841b514868",
+          "host": "jianshu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "好未来",
+          "url": "http://job.100tal.com/xzxq?jobId=510396062",
+          "host": "job.100tal.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "好未来 笔试完",
+          "url": "http://job.100tal.com/Portal/Apply/Index",
+          "host": "job.100tal.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "比亚迪招聘 初筛中",
+          "url": "https://job.byd.com/portal/pc/#/personalCenter/myApply",
+          "host": "job.byd.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "奥比中光 初筛中",
+          "url": "https://job.orbbec.com.cn/personal/deliveryRecord",
+          "host": "job.orbbec.com.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "职位详情",
+          "url": "https://jobs.bitmain.com.cn/jobDetails?id=5a35fc11-21f1-4ffa-849c-bf5f23486651&module=students",
+          "host": "jobs.bitmain.com.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "深入分析Linux内核源码",
+          "url": "http://kerneltravel.net/book/",
+          "host": "kerneltravel.net",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "禾赛 人才库",
+          "url": "https://kwh0jtf778.jobs.feishu.cn/229043/position/application",
+          "host": "kwh0jtf778.jobs.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "零跑汽车",
+          "url": "https://leapmotor.zhiye.com/personal/deliveryRecord",
+          "host": "leapmotor.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "极客漫画|漫画赏析：Linux 内核到底长啥样",
+          "url": "https://linux.cn/article-8290-1.html",
+          "host": "linux.cn",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "理想汽车 | 创造移动的家, 创造幸福的家 | 我的档案",
+          "url": "https://www.lixiang.com/employ/archives.html?fromJob=1",
+          "host": "lixiang.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "海尔招聘-海尔官方招聘网站",
+          "url": "http://maker.haier.net/client/campus/customizedmycampusresume.html",
+          "host": "maker.haier.net",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "卓胜微电子",
+          "url": "https://maxscend.zhiye.com/personal/deliveryRecord",
+          "host": "maxscend.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "Momenta",
+          "url": "https://momenta.jobs.feishu.cn/campus/position/application",
+          "host": "momenta.jobs.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "【RT-Thread 开源作品秀】基于 RT-Thread 的“数码小精灵”设计与实现",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwMzA2NzI1Ng==&mid=2655164335&idx=1&sn=8b0db74996ee91c46c90fd57d6d8aa5f&scene=21#wechat_redirect",
+          "host": "mp.weixin.qq.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "RT-Thread开源作品秀",
+          "url": "https://mp.weixin.qq.com/s/-4qhg5rXzrHZCod_OfkZ7A",
+          "host": "mp.weixin.qq.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "蔚来校招",
+          "url": "https://nio.jobs.feishu.cn/campus/position/application?spread=CDRBT29",
+          "host": "nio.jobs.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "新大陆自动识别",
+          "url": "https://www.nlscan.com/campusrecruitment.html",
+          "host": "nlscan.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "有道云笔记",
+          "url": "https://note.youdao.com/ynoteshare/index.html?id=a5e9dfb9125fda8f35c27bdb6f9998da&type=note&_time=1687675367055",
+          "host": "note.youdao.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "诺瓦星云 初筛中",
+          "url": "https://novastar.zhiye.com/personal/deliveryRecord",
+          "host": "novastar.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "正点原子资料下载中心 — 正点原子资料下载中心 1.0.0 文档",
+          "url": "http://www.openedv.com/docs/index.html",
+          "host": "openedv.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "OpenEdv-开源网-原子哥个人博客",
+          "url": "http://www.openedv.com/",
+          "host": "openedv.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "小马智行  初筛中",
+          "url": "https://ponyai.jobs.feishu.cn/ponycampus/position/application",
+          "host": "ponyai.jobs.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "复旦微电子",
+          "url": "https://q.yingjiesheng.com/pc/personal?tabId=2&partner=wspcsucceedb1",
+          "host": "q.yingjiesheng.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "平头哥招聘官网",
+          "url": "https://recruitment.t-head.cn/personal/campus-application?lang=zh",
+          "host": "recruitment.t-head.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "睿联",
+          "url": "https://reolink.zhiye.com/Portal/Apply/Index",
+          "host": "reolink.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "linux - 从零开始写 OS 内核 - 简单的文件系统 - 个人文章 - SegmentFault 思否",
+          "url": "https://segmentfault.com/a/1190000040400408",
+          "host": "segmentfault.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "意法半导体STM32/STM8技术社区 - 提供最新的ST资讯和技术交流",
+          "url": "https://www.stmcu.org.cn/",
+          "host": "stmcu.org.cn",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32F103C8T6 STM32开发板最小系统板单片机核心板 学习板实验板 · 北科芯域TELESKY",
+          "url": "https://telesky.yuque.com/lb1y9d/hzssgq/xv9rxwalwcua3f5u",
+          "host": "telesky.yuque.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "秋招表格",
+          "url": "https://tkp2elyahw.feishu.cn/share/base/view/shrcnQvCblWPxrqjz4HDzhyTnSb",
+          "host": "tkp2elyahw.feishu.cn",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "联影  初筛中",
+          "url": "https://united-imaging.zhiye.com/personal/deliveryRecord",
+          "host": "united-imaging.zhiye.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "实习生（相机嵌入式软件工程师） - DJI 大疆招聘",
+          "url": "https://we.dji.com/zh-CN/position/detail?positionId=1626524284443799552",
+          "host": "we.dji.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "小米实习生招聘",
+          "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/application?spread=6AA3R7B",
+          "host": "xiaomi.jobs.f.mioffice.cn",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "小米校园",
+          "url": "https://xiaomi.jobs.f.mioffice.cn/campus/position/application?spread=J7NS6YR",
+          "host": "xiaomi.jobs.f.mioffice.cn",
+          "group": "嵌入式与底层",
+          "folder": "秋招2",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团招聘 笔试",
+          "url": "https://zhaopin.meituan.com/web/personalCenter/deliveryRecord",
+          "host": "zhaopin.meituan.com",
+          "group": "嵌入式与底层",
+          "folder": "秋招",
+          "browser": "Edge"
+        },
+        {
+          "title": "嵌入式软件工程师笔试面试指南 - 知乎",
+          "url": "https://www.zhihu.com/column/c_1366086412383600640",
+          "host": "zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "学C语言的时候老师说寄存器没有地址，但是ARM芯片手册中，每个寄存器又都有一个地址？寄存器到底有没有地址？ - 知乎",
+          "url": "https://www.zhihu.com/question/30155201?sort=created",
+          "host": "zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "FreeRTOS 从入门到精通4--堆栈管理知多少",
+          "url": "https://www.zhihu.com/tardis/zm/art/115276865?source_id=1005",
+          "host": "zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "【超详细】韦东山：史上最全嵌入式Linux学习路线图_2016版 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/28554419",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "常见通信方式（TTL、RS232、RS485、CAN）总结 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/456827469",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "耗时一周总结的嵌入式学习路线，超详细 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/531416610",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "嵌入式Linux学习路线七大步骤推荐 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/467901094",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "韦东山：6000字长文告诉你如何学习嵌入式linux - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/140412992",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "一文搞懂比特率和波特率 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/630588317",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "一文解释清楚DDR，LPDDR，EMMC，NAND Flash和NOR Flash - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/616539613",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "终于看懂了！通信协议 IIC 与 SPI 最全对比 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/166103763",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ADC和DAC——跟我一起写STM32(第九期) - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/599754496",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "ARM+嵌入式Linux学习路线 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/97869854",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "CPU、MPU、MCU、SOC的概念与区别 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/536701808",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "CSAPP一键环境配置、完成8个lab总结 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/505497911",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "FreeRTOS变量命名规则 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/480328008#Data%20Types",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "LwIP协议栈粗解 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/103104760",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "MIT6.S081笔记——带你写写OS - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/300794996",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "MPU和MCU的区别 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/106860696",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32 非阻塞HAL_UART_Receive_IT解析与实际应用 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/147414331",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32第二章-启动过程详解 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/123291856",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32启动过程--启动文件--分析 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/407311651",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "STM32入门系列-介绍STM32型号与功用 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/67296756",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "TinyWebServer——从0到服务器开发！ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/364044293",
+          "host": "zhuanlan.zhihu.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式",
+          "browser": "Edge"
+        },
+        {
+          "title": "首页|GEELY 吉利招聘",
+          "url": "https://zp-hcm.geely.com/home/indexNew",
+          "host": "zp-hcm.geely.com",
+          "group": "嵌入式与底层",
+          "folder": "嵌入式投简历",
+          "browser": "Edge"
+        }
+      ]
+    },
+    {
+      "name": "开发与工具",
+      "items": [
+        {
+          "title": "驱动人生官网",
+          "url": "https://www.160.com/",
+          "host": "160.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "AbrahumLink",
+          "url": "http://abrahum.link/",
+          "host": "abrahum.link",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "WebServer项目详解 - 老猫轩仔的漫谈",
+          "url": "https://www.agedcat.com/programming_language/cpp/537.html",
+          "host": "agedcat.com",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "格式转换器",
+          "url": "https://www.alltoall.net/",
+          "host": "alltoall.net",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "经验分享：秋招斩获美团京东快手华为offer！",
+          "url": "https://articles.zsxq.com/id_rzwfdxfkcdk1.html",
+          "host": "articles.zsxq.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "速通24届暑期实习：我是如何在三月份斩获百度和美团两家大厂offer的",
+          "url": "https://articles.zsxq.com/id_s2hl2xpewhsf.html",
+          "host": "articles.zsxq.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "星球资源汇总",
+          "url": "https://articles.zsxq.com/id_th0rdvb3xz1e.html",
+          "host": "articles.zsxq.com",
+          "group": "开发与工具",
+          "folder": "知识星球",
+          "browser": "Edge"
+        },
+        {
+          "title": "正确介绍自己的项目经验 再也不为面试发愁了",
+          "url": "https://articles.zsxq.com/id_0i5m6l9uhrhn.html",
+          "host": "articles.zsxq.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++后端学习路线",
+          "url": "https://articles.zsxq.com/id_f77j95w8whla.html",
+          "host": "articles.zsxq.com",
+          "group": "开发与工具",
+          "folder": "知识星球",
+          "browser": "Edge"
+        },
+        {
+          "title": "问答库",
+          "url": "https://www.asklib.com/",
+          "host": "asklib.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "黑马程序员 C++",
+          "url": "https://www.bilibili.com/video/BV1et411b73Z?spm_id_from=333.999.0.0",
+          "host": "bilibili.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "cherno C++教程",
+          "url": "https://www.bilibili.com/video/BV1Ay4y1i7Z6?vd_source=dfef2bf92245fbbb7cc219332703a5c8",
+          "host": "bilibili.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "(11条消息) extern关键字_我什么都布吉岛的博客-CSDN博客_extern unit",
+          "url": "https://blog.csdn.net/weixin_39258979/article/details/122679599?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166799218816782417023963%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166799218816782417023963&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-1-122679599-null-null.142^v63^pc_rank_34_queryrelevant25,201^v3^control_1,213^v2^t3_esquery_v1&utm_term=extern%E5%85%B3%E9%94%AE%E5%AD%97&spm=1018.2226.3001.4187",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "(12条消息) 运算优先级、结合性、求值顺序、副作用和顺序点_xtlisk的博客-CSDN博客",
+          "url": "https://blog.csdn.net/xtlisk/article/details/40116813",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "(13条消息) C/C++ 引用作为函数的返回值_Jeff_的博客-CSDN博客_c++ 返回引用",
+          "url": "https://blog.csdn.net/weixin_40539125/article/details/81410008",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "(1条消息) 当 std::bind 遇上 this_std::bind this_lqw198421的博客-CSDN博客",
+          "url": "https://blog.csdn.net/lqw198421/article/details/115087355",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "(1条消息) 基于小根堆实现的定时器_小根堆定时器_菜鸟上线的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_41895640/article/details/122211798",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "项目",
+          "browser": "Edge"
+        },
+        {
+          "title": "(1条消息) 深入剖析 std::unordered_map 的实现原理之 Hash冲突、退化_std unordered_map__fibonaccii的博客-CSDN博客",
+          "url": "https://blog.csdn.net/ZZS_SZZ/article/details/114193454",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "(1条消息) C ++ stringstream –参考和使用指南_cunchi4221的博客-CSDN博客",
+          "url": "https://blog.csdn.net/cunchi4221/article/details/107471287",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "(1条消息) C++11新特性——std::bind参数绑定_山河君的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_42956179/article/details/115518826",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "(2条消息) socket通信 bind() 函数详解_bind socket_行孤、的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_43403759/article/details/114727885",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "(3条消息) 项目学习_vhcjgc的博客-CSDN博客",
+          "url": "https://blog.csdn.net/vhcjgc/category_11745456.html",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "(4条消息) 使用muduo编写webserver_muduo项目_bug_Cat的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_41474648/article/details/129010078",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "项目",
+          "browser": "Edge"
+        },
+        {
+          "title": "(5条消息) 2021最新：TensorFlow各个GPU版本CUDA和cuDNN对应版本整理(最简洁)_K1052176873的博客-CSDN博客_cuda tensorflow版本对应",
+          "url": "https://blog.csdn.net/K1052176873/article/details/114526086",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "tensorflow",
+          "browser": "Edge"
+        },
+        {
+          "title": "(5条消息) Tensorflow-gpu安装超详细！！！_m0_49090516的博客-CSDN博客_tensorflowgpu安装",
+          "url": "https://blog.csdn.net/m0_49090516/article/details/113576003#:~:text=%E5%AE%89%E8%A3%85Tensorflow%E5%92%8CCUDA%E3%80%81cuDNN%E7%9A%84%E6%96%B9%E5%BC%8F%E7%A8%8D%E6%9C%89%E4%B8%8D%E5%90%8C%2C%20CUDA%E5%92%8CcuDNN%E6%98%AF%E4%BD%BF%E7%94%A8conda%E5%91%BD%E4%BB%A4%E4%B8%8B%E8%BD%BD%EF%BC%8CTensorflow%E6%98%AF%E9%80%9A%E8%BF%87pip%E4%B8%8B%E8%BD%BD%20%2C%E5%90%8C%E6%A0%B7%E5%9C%A8%E6%BF%80%E6%B4%BB%E7%8E%AF%E5%A2%83%E4%B8%AD%E8%BE%93%E5%85%A5%20pip%20install%20tensorflow-gpu%3D%3D2.1.0%20%2C%E7%AD%89%E5%BE%85%E4%B8%8B%E8%BD%BD%E5%AE%8C%E6%AF%95%EF%BC%8C%E5%8D%B3%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%EF%BC%8C%E5%A6%82%E4%B8%8B%E5%9B%BE%E6%89%80%E7%A4%BA%EF%BC%8C%E5%8D%B3%E8%A1%A8%E6%98%8E%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%21%20%E8%87%B3%E6%AD%A4%EF%BC%8CTensorflow%E7%9A%84GPU%E7%89%88%E6%9C%AC%E5%B7%B2%E7%BB%8F%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%EF%BC%8C%E7%8E%B0%E5%9C%A8%E9%9C%80%E8%A6%81%E6%B5%8B%E8%AF%95%E5%8F%AF%E7%94%A8%E4%B8%8D%E5%8F%AF%E7%94%A8%E3%80%82,%E8%B0%A2%E8%B0%A2%E5%90%84%E4%BD%8D%EF%BC%81%201.%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%20%20%E5%9C%A8%20%E5%AE%89%E8%A3%85TensorFlow%20-gpu%E4%B9%8B%E5%89%8D%EF%BC%8C%E5%85%88%E5%87%86%E5%A4%87%E5%A5%BD%E7%8E%AF%E5%A2%83%EF%BC%8CVisual%20Studio%202013%EF%BC%8CAnaconda%EF%BC%8CCuda%E5%92%8Ccundnn%E3%80%82",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "tensorflow",
+          "browser": "Edge"
+        },
+        {
+          "title": "(5条消息) Windows 10系统下安装多版本CUDA和cuDNN（及多版本的tensorflow和pytorch）_博博有个大大大的Dream-CSDN博客_cuda多版本安装 windows",
+          "url": "https://blog.csdn.net/qq_17783559/article/details/112916708",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "tensorflow",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) MTU，窗口大小和mss的区别_mss和窗口大小_Chen-ky的博客-CSDN博客",
+          "url": "https://blog.csdn.net/guizaijianchic/article/details/77524825",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "(7条消息) socket实现tcp通信__End丶断弦的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_45599288/article/details/123543613",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "安利一款比Xshell，xftp更好用的免费全能终端神器---MobaXterm，一用过它便再也没使用过其他软件！！！！_一条肥雷的博客-CSDN博客_xshell类似软件",
+          "url": "https://blog.csdn.net/guihua55/article/details/108923642",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "稍后再读",
+          "browser": "Edge"
+        },
+        {
+          "title": "单例模式与阻塞队列实现异步的日志系统_菜鸟上线的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_41895640/article/details/122202606",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "基于跳表实现的轻量级KV存储引擎 项目总结_Ray Song的博客-CSDN博客",
+          "url": "https://blog.csdn.net/rayso9898/article/details/125166735",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "计算机专业英语词汇1695词",
+          "url": "https://blog.csdn.net/Until_U/article/details/105133522",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "结构体和类的区别_u013341034的博客-CSDN博客_结构体与类的区别",
+          "url": "https://blog.csdn.net/u013341034/article/details/50884967",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "如何在linux下判断web服务是否开启？",
+          "url": "https://blog.csdn.net/LemonTreey/article/details/56290278",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "线程池web服务器(8) 日志系统(条件变量，单例模式，阻塞队列)_单例模式和阻塞队列实现日志_ziggy7的博客-CSDN博客",
+          "url": "https://blog.csdn.net/qq_36459662/article/details/106901292",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "详解浏览器解析一个URL的全过程_url解析",
+          "url": "https://blog.csdn.net/qq_41687938/article/details/119778557",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "长文梳理Muduo库核心代码及优秀编程细节剖析_陈硕muduo_我在地铁站里吃闸机的博客-CSDN博客",
+          "url": "https://blog.csdn.net/T_Solotov/article/details/124044175?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168516894616800211566687%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168516894616800211566687&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-124044175-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=%E9%95%BF%E6%96%87%E6%A2%B3%E7%90%86muduo&spm=1018.2226.3001.4187",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "blog.csdn.net",
+          "url": "https://blog.csdn.net/sywdebug/article/details/112126875",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C/C++中的NULL到底是什么_c++ null_发狂的蜗牛的博客-CSDN博客",
+          "url": "https://blog.csdn.net/digitalkee/article/details/103003300",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++ 单例模式总结（5种单例实现方法）_单例模式c++实现_unonoi的博客-CSDN博客",
+          "url": "https://blog.csdn.net/unonoi/article/details/121138176?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168621183516800213046004%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168621183516800213046004&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-121138176-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=c%2B%2B%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F&spm=1018.2226.3001.4187",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++11： std::function＜void()＞ func_羽生少年的博客-CSDN博客",
+          "url": "https://blog.csdn.net/jusu10/article/details/121467274?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-121467274-blog-119732176.235^v36^pc_relevant_default_base3&spm=1001.2101.3001.4242.1&utm_relevant_index=3",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++回调函数必须为静态函数的原因_回调函数必须是静态的吗_云端的蜗牛的博客-CSDN博客",
+          "url": "https://blog.csdn.net/u012072012/article/details/45537387",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++实现高并发服务器——代码学习（二）存储解析HTTP请求报文，创建响应报文_retrieveuntil_vhcjgc的博客-CSDN博客",
+          "url": "https://blog.csdn.net/vhcjgc/article/details/124106273",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++Primer第五版 习题答案",
+          "url": "https://blog.csdn.net/shamozhizhoutx/article/details/81264498",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "cache 写回策略",
+          "url": "https://blog.csdn.net/xingzhe22222/article/details/81988101",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计组",
+          "browser": "Edge"
+        },
+        {
+          "title": "HTTP协议数据包格式（报文段）",
+          "url": "https://blog.csdn.net/qq_44938404/article/details/105577440",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "Mysql case when 实现行转列时为什么要用max()或者其他聚合函数_maxcase when_u014180504的博客-CSDN博客",
+          "url": "https://blog.csdn.net/u014180504/article/details/79150492",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "数据库",
+          "browser": "Edge"
+        },
+        {
+          "title": "MySQL case when 用法",
+          "url": "https://blog.csdn.net/qq_30038111/article/details/79611167",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "数据库",
+          "browser": "Edge"
+        },
+        {
+          "title": "MySQL的执行计划详解（Explain）_mysql执行计划_zhz小白的博客-CSDN博客",
+          "url": "https://blog.csdn.net/zhouhengzhe/article/details/112272134",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "Python中self用法详解",
+          "url": "https://blog.csdn.net/CLHugh/article/details/75000104",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "Reactor模式详解及redis如何使用_reactor redis_5ycode的博客-CSDN博客",
+          "url": "https://blog.csdn.net/f80407515/article/details/122334380",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "return *this和return this有什么区别？",
+          "url": "https://blog.csdn.net/stpeace/article/details/22220777",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "socket网络编程中read与recv区别_socket read_高晓伟_Steven的博客-CSDN博客",
+          "url": "https://blog.csdn.net/superbfly/article/details/72782264",
+          "host": "blog.csdn.net",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "Jupyter Notebook 内核的添加和删除 | Origin",
+          "url": "https://blog.singee.me/2018/06/28/python/jupyter-kernel/",
+          "host": "blog.singee.me",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "上海银行",
+          "url": "https://bosc.zhiye.com/personal/deliveryRecord",
+          "host": "bosc.zhiye.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "Python导入模块的3种方式",
+          "url": "http://c.biancheng.net/view/4645.html",
+          "host": "c.biancheng.net",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "滴滴 - 校园招聘",
+          "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/candidateHome/applications",
+          "host": "campus.didiglobal.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "京东校招",
+          "url": "https://campus.jd.com/api/wx/page/index#/myDeliver?type=present",
+          "host": "campus.jd.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "序言 现代 C++ 教程: 高速上手 C++ 11/14/17/20 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly",
+          "url": "https://changkun.de/modern-cpp/zh-cn/00-preface/",
+          "host": "changkun.de",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "Chrome 网上应用店 - 扩展程序",
+          "url": "https://chrome.google.com/webstore/category/extensions?hl=zh",
+          "host": "chrome.google.com",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "极简插件",
+          "url": "https://chrome.zzzmh.cn/#index",
+          "host": "chrome.zzzmh.cn",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "ChromeFor",
+          "url": "https://www.chromefor.com/",
+          "host": "chromefor.com",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "-1对256取模 - Sander_Hill - 博客园",
+          "url": "https://www.cnblogs.com/houqi/p/5644384.html",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "博客园",
+          "url": "https://www.cnblogs.com/",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "一步一步的理解C++STL迭代器 - phlsheji - 博客园",
+          "url": "https://www.cnblogs.com/bhlsheji/p/4842539.html",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "c++输出中文乱码解决方案",
+          "url": "https://www.cnblogs.com/roadwide/p/10533594.html",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "Cache直接映射、组相连映射以及全相连映射（转载） - east1203 - 博客园",
+          "url": "https://www.cnblogs.com/east1203/p/11572500.html#:~:text=%E4%B8%BA%E4%BA%86%E6%8A%8A%E4%BF%A1%E6%81%AF%E6%94%BE%E5%88%B0Cache%E4%B8%AD%EF%BC%8C%E5%BF%85%E9%A1%BB%E5%BA%94%E7%94%A8%E6%9F%90%E7%A7%8D%E5%87%BD%E6%95%B0%E6%8A%8A%E4%B8%BB%E5%AD%98%E5%9C%B0%E5%9D%80%E5%AE%9A%E4%BD%8D%E5%88%B0Cache%E4%B8%AD%EF%BC%8C%E8%BF%99%E7%A7%B0%E4%B8%BA%E5%9C%B0%E5%9D%80%E6%98%A0%E5%B0%84%20%E3%80%82.%20%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%8C%89%E8%BF%99%E7%A7%8D%E6%98%A0%E5%B0%84%E5%85%B3%E7%B3%BB%E8%A3%85%E5%85%A5Cache%E5%90%8E%EF%BC%8CCPU%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F%E6%97%B6%EF%BC%8C%E4%BC%9A%E5%B0%86%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E4%B8%BB%E5%AD%98%E5%9C%B0%E5%9D%80%E5%8F%98%E6%8D%A2%E6%88%90Cache%E5%9C%B0%E5%9D%80%EF%BC%8C%E8%BF%99%E4%B8%AA%E5%8F%98%E6%8D%A2%E8%BF%87%E7%A8%8B%E5%8F%AB%E5%81%9A%E5%9C%B0%E5%9D%80%E5%8F%98%E6%8D%A2%E3%80%82.,Cache%E7%9A%84%E5%9C%B0%E5%9D%80%E6%98%A0%E5%B0%84%E6%96%B9%E5%BC%8F%E6%9C%89%E7%9B%B4%E6%8E%A5%E6%98%A0%E5%B0%84%E3%80%81%E5%85%A8%E7%9B%B8%E8%81%94%E6%98%A0%E5%B0%84%E5%92%8C%E7%BB%84%E7%9B%B8%E8%81%94%E6%98%A0%E5%B0%84%E3%80%82.%20%E5%81%87%E8%AE%BE%E6%9F%90%E5%8F%B0%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%BB%E5%AD%98%E5%AE%B9%E9%87%8F%E4%B8%BAl%20MB%EF%BC%8C%E8%A2%AB%E5%88%86%E4%B8%BA2048%E5%9D%97%EF%BC%8C%E6%AF%8F%E5%9D%97512B%EF%BC%9BCache%E5%AE%B9%E9%87%8F%E4%B8%BA8KB%EF%BC%8C%E8%A2%AB%E5%88%86%E4%B8%BA16%E5%9D%97%EF%BC%8C%E6%AF%8F%E5%9D%97%E4%B9%9F%E6%98%AF512B%E3%80%82.%20%E4%B8%8B%E9%9D%A2%E4%BB%A5%E6%AD%A4%E4%B8%BA%E4%BE%8B%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%9A%84%E5%9C%B0%E5%9D%80%E6%98%A0%E5%B0%84%E6%96%B9%E6%B3%95%E3%80%82.",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "计组",
+          "browser": "Edge"
+        },
+        {
+          "title": "epoll水平/边缘触发模式设置阻塞/非阻塞IO事件触发条件及次数 - Jcpeng_std - 博客园",
+          "url": "https://www.cnblogs.com/JCpeng/p/15169423.html#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%87%BA%E5%9C%A8%E8%BF%99%E7%A7%8D%E6%A8%A1%E5%BC%8F%E4%B8%8B%EF%BC%8C%E7%A8%8B%E5%BA%8F%E4%BC%9A%E9%98%BB%E5%A1%9E%E5%9C%A8epoll_wait%20%28%29%E5%87%BD%E6%95%B0%E8%BF%99%E9%87%8C%EF%BC%8C%E5%8F%AA%E6%9C%89%E5%AE%A2%E6%9C%8D%E7%AB%AF%E6%9C%89%E6%96%B0%E7%9A%84%E6%95%B0%E6%8D%AE%E5%8F%91%E9%80%81%E5%88%B0%E6%9C%8D%E5%8A%A1%E7%AB%AF%EF%BC%8CEPOLLOUT%E4%BA%8B%E4%BB%B6%EF%BC%88%E4%BC%B4%E9%9A%8F%E7%9D%80EPOLLIN%E4%BA%8B%E4%BB%B6%EF%BC%89%E6%89%8D%E4%BC%9A%E8%A7%A6%E5%8F%91%EF%BC%9A%201%EF%BC%89%E8%AF%BB%E7%BC%93%E5%86%B2%E5%8C%BA%E8%83%BD%E5%A4%9F%E4%B8%80%E6%AC%A1%E5%AD%98%E6%94%BE%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%91%E9%80%81%E8%BF%87%E6%9D%A5%E7%9A%84%E6%95%B0%E6%8D%AE%E6%97%B6%EF%BC%8C%E5%8F%AA%E8%A7%A6%E5%8F%91%E4%B8%80%E6%AC%A1EPOLLOUT%E4%BA%8B%E4%BB%B6%E3%80%82%202%EF%BC%89%E8%AF%BB%E7%BC%93%E5%86%B2%E5%8C%BA%E4%B8%8D%E8%83%BD%E4%B8%80%E6%AC%A1%E5%AD%98%E6%94%BE%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%91%E9%80%81%E8%BF%87%E6%9D%A5%E7%9A%84%E6%95%B0%E6%8D%AE%E6%97%B6%EF%BC%8C%E4%BC%9A%E5%A4%9A%E6%AC%A1%E8%A7%A6%E5%8F%91EPOLLOUT%E4%BA%8B%E4%BB%B6%EF%BC%8C%E7%9B%B4%E5%88%B0%E8%AF%BB%E5%AE%8C%E5%AE%A2%E6%9C%8D%E7%AB%AF%E5%8F%91%E9%80%81%E8%BF%87%E6%9D%A5%E7%9A%84%E6%95%B0%E6%8D%AE%E3%80%82%202,%E6%B0%B4%E5%B9%B3%E8%A7%A6%E5%8F%91%EF%BC%88LT%EF%BC%89%E6%A8%A1%E5%BC%8F%E7%BB%93%E5%90%88%E9%9D%9E%E9%98%BB%E5%A1%9EIO%EF%BC%88nonblock%EF%BC%89%20%E5%9C%A8%E6%B0%B4%E5%B9%B3%E8%A7%A6%E5%8F%91%E6%A8%A1%E5%BC%8F%E4%B8%8B%EF%BC%8C%E9%87%87%E7%94%A8%E9%9D%9E%E9%98%BB%E5%A1%9EIO%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C%E7%A8%8B%E5%BA%8F%E4%B8%8D%E4%BC%9A%E9%98%BB%E5%A1%9E%E5%9C%A8epoll_wait%20%28%29%E8%BF%99%E9%87%8C%EF%BC%8C%E8%80%8C%E6%98%AF%E5%8F%AA%E8%A6%81%E5%AE%A2%E6%9C%8D%E7%AB%AF%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%8F%AF%E7%94%A8%EF%BC%8C%E5%8D%B3%E4%BD%BF%E5%AE%A2%E6%9C%8D%E7%AB%AF%E6%B2%A1%E6%9C%89%E5%8F%91%E9%80%81%E6%95%B0%E6%8D%AE%EF%BC%8CEPOLLOUT%E4%BA%8B%E4%BB%B6%E4%B9%9F%E4%BC%9A%E4%B8%80%E7%9B%B4%E8%A7%A6%E5%8F%91%EF%BC%88%E5%86%99%E7%BC%93%E5%86%B2%E5%8C%BA%E5%8F%AF%E5%86%99%EF%BC%89%E3%80%82%203%20%E8%BE%B9%E7%BC%98%E8%A7%A6%E5%8F%91%EF%BC%88ET%EF%BC%89%E6%A8%A1%E5%BC%8F%E7%BB%93%E5%90%88%E9%98%BB%E5%A1%9EIO%EF%BC%88block%EF%BC%89",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "mingw控制台中文乱码",
+          "url": "https://www.cnblogs.com/chouxianyu/p/11249810.html",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "TCP的ACK原理和延迟确认机制",
+          "url": "https://www.cnblogs.com/wangshaowei/p/11063101.html",
+          "host": "cnblogs.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "Buy Plugins & Code from CodeCanyon",
+          "url": "https://codecanyon.net/",
+          "host": "codecanyon.net",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "线程池web服务器(4) http_conn请求类 | 码农家园",
+          "url": "https://www.codenong.com/cs106765314/",
+          "host": "codenong.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "服务器 - 轻量应用服务器 - 控制台",
+          "url": "https://console.cloud.tencent.com/lighthouse/instance/index?rid=1",
+          "host": "console.cloud.tencent.com",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "CS自学指南",
+          "url": "https://csdiy.wiki/",
+          "host": "csdiy.wiki",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "CSDN",
+          "url": "https://www.csdn.net/",
+          "host": "csdn.net",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "编程指北",
+          "url": "https://csguide.cn/",
+          "host": "csguide.cn",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "首页 | CSView计算机招聘知识分享",
+          "url": "http://www.csview.cn/",
+          "host": "csview.cn",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "大圣盘",
+          "url": "https://www.dashengpan.com/#/",
+          "host": "dashengpan.com",
+          "group": "开发与工具",
+          "folder": "yundownload",
+          "browser": "Edge"
+        },
+        {
+          "title": "域名控制台",
+          "url": "https://dc.console.aliyun.com/next/index?spm=5176.12818093.Operation--ali--widget-home-product-recent.dre4.5adc16d0Thc9CV#/domain/list/all-domain",
+          "host": "dc.console.aliyun.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "Rainmeter | DeviantArt",
+          "url": "https://www.deviantart.com/rainmeter",
+          "host": "deviantart.com",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "I am Chuan !",
+          "url": "https://dongchuan.github.io/",
+          "host": "dongchuan.github.io",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "豆包 - 字节跳动旗下 AI 智能助手",
+          "url": "https://www.doubao.com/chat/",
+          "host": "doubao.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "Desktop Icons NG (DING) - GNOME Shell Extensions",
+          "url": "https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/",
+          "host": "extensions.gnome.org",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "extfan",
+          "url": "https://www.extfans.com/",
+          "host": "extfans.com",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "快吧软件",
+          "url": "http://www.fast8.com/",
+          "host": "fast8.com",
+          "group": "开发与工具",
+          "folder": "Download",
+          "browser": "Edge"
+        },
+        {
+          "title": "抠图",
+          "url": "https://www.gaoding.com/koutu?hmsr=zhongcao-kt_zh_pmzd-koutu---pmzd-bdqd&utm_medium=&utm_source=zhongcao",
+          "host": "gaoding.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "极客专栏 | 极客中心",
+          "url": "https://www.geekzl.com/geekzl",
+          "host": "geekzl.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "AlanProject",
+          "url": "https://github.com/mahmoodalmansooei/AlanProject",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "github",
+          "browser": "Edge"
+        },
+        {
+          "title": "Alinshans/MyTinySTL: Achieve a tiny STL in C++11",
+          "url": "https://github.com/Alinshans/MyTinySTL",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "STL",
+          "browser": "Edge"
+        },
+        {
+          "title": "CodeAllen999/Linux-C-CPP-Collection: Linux/C/CPP开源项目 - 【高级嵌入式软件工程师自学之路】，编程学习+行业动态+资源分享+面试方法+岗位分析",
+          "url": "https://github.com/CodeAllen999/Linux-C-CPP-Collection",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.",
+          "url": "https://github.com/f/awesome-chatgpt-prompts",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "github",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - markparticle/WebServer: C++ Linux WebServer服务器",
+          "url": "https://github.com/markparticle/WebServer",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub - phocean/TopIcons-plus: An gnome-shell extension to put the icons back to the tray.",
+          "url": "https://github.com/phocean/TopIcons-plus",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "linw7/Skill-Tree: 🐼 准备秋招，欢迎来树上取果实",
+          "url": "https://github.com/linw7/Skill-Tree",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "linyacool/WebServer: A C++ High Performance Web Server",
+          "url": "https://github.com/linyacool/WebServer",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "ossrs/srs：SRS是一款简单、高效、实时的视频服务器，支持RTMP、WEBRTC、HLS、HTTP-FLV、SRT、MPEG-DASH和GB28181。",
+          "url": "https://github.com/ossrs/srs",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "pyFirmata",
+          "url": "https://github.com/tino/pyFirmata",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "github",
+          "browser": "Edge"
+        },
+        {
+          "title": "pyFirmata2",
+          "url": "https://github.com/berndporr/pyFirmata2",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "github",
+          "browser": "Edge"
+        },
+        {
+          "title": "qinguoyi/TinyWebServer: Linux下C++轻量级WebServer服务器学习",
+          "url": "https://github.com/qinguoyi/TinyWebServer",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "Shangyizhou/A-Tiny-Network-Library: 使用 C++ 11 重构陈硕的 muduo 库，去除 boost 依赖。内部实现有 HTTP 服务器，可支持 GET 请求。",
+          "url": "https://github.com/Shangyizhou/A-Tiny-Network-Library?time=1672232271317",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "项目",
+          "browser": "Edge"
+        },
+        {
+          "title": "tjumcw/6.824: MIT 6.824 distributed system C++Version",
+          "url": "https://github.com/tjumcw/6.824",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "YfsBox/TinyMuduo: 仿照muduo实现的基于linux的多线程网络库.",
+          "url": "https://github.com/YfsBox/TinyMuduo",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "youngyangyang04/Skiplist-CPP: A tiny KV storage based on skiplist written in C++ language| 使用C++开发，基于跳表实现的轻量级键值数据库🔥🔥 \ud83d",
+          "url": "https://github.com/youngyangyang04/Skiplist-CPP",
+          "host": "github.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "Greasy Fork",
+          "url": "https://greasyfork.org/zh-CN",
+          "host": "greasyfork.org",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "Guge",
+          "url": "https://www.gugeapps.net/",
+          "host": "gugeapps.net",
+          "group": "开发与工具",
+          "folder": "Extend",
+          "browser": "Edge"
+        },
+        {
+          "title": "HelloGitHub",
+          "url": "https://hellogithub.com/",
+          "host": "hellogithub.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "下载工具 - 盒子部落",
+          "url": "https://www.hezibuluo.com/net/down",
+          "host": "hezibuluo.com",
+          "group": "开发与工具",
+          "folder": "Download",
+          "browser": "Edge"
+        },
+        {
+          "title": "TP-LINK 招聘",
+          "url": "https://hr.tp-link.com.cn/deliver",
+          "host": "hr.tp-link.com.cn",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "小白视角：一文读懂社长的TinyWebServer | HU",
+          "url": "https://huixxi.github.io/2020/06/02/%E5%B0%8F%E7%99%BD%E8%A7%86%E8%A7%92%EF%BC%9A%E4%B8%80%E6%96%87%E8%AF%BB%E6%87%82%E7%A4%BE%E9%95%BF%E7%9A%84TinyWebServer/#more",
+          "host": "huixxi.github.io",
+          "group": "开发与工具",
+          "folder": "Web server",
+          "browser": "Edge"
+        },
+        {
+          "title": "InfoQ",
+          "url": "https://www.infoq.cn/",
+          "host": "infoq.cn",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "目录 | 阿秀的学习笔记",
+          "url": "https://interviewguide.cn/notes/01-guide/web-guide-reading.html",
+          "host": "interviewguide.cn",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "职晓科技(OfferShow)公司官网",
+          "url": "https://www.ioffershow.com/static/shouye/index.html",
+          "host": "ioffershow.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "异次元",
+          "url": "https://www.iplaysoft.com/",
+          "host": "iplaysoft.com",
+          "group": "开发与工具",
+          "folder": "Download",
+          "browser": "Edge"
+        },
+        {
+          "title": "编程满天星 itmtx.cn",
+          "url": "https://itmtx.cn/job",
+          "host": "itmtx.cn",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "为什么要有虚继承？是为了解决什么问题？ - 简书",
+          "url": "https://www.jianshu.com/p/ab96f88e5285",
+          "host": "jianshu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "网易见外工作台",
+          "url": "https://jianwai.youdao.com/index/0",
+          "host": "jianwai.youdao.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "小红书",
+          "url": "https://job.xiaohongshu.com/record/campus",
+          "host": "job.xiaohongshu.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "哔哩哔哩-招聘",
+          "url": "https://jobs.bilibili.com/campus/records",
+          "host": "jobs.bilibili.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "字节",
+          "url": "https://jobs.bytedance.com/experienced/position/application",
+          "host": "jobs.bytedance.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "腾讯校招",
+          "url": "https://join.qq.com/progress.html",
+          "host": "join.qq.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "掘金",
+          "url": "https://juejin.cn/",
+          "host": "juejin.cn",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "来搜一下-网盘搜索 - 首页",
+          "url": "https://www.laisoyixia.com/",
+          "host": "laisoyixia.com",
+          "group": "开发与工具",
+          "folder": "yundownload",
+          "browser": "Edge"
+        },
+        {
+          "title": "LALAL.AI：100% 人工智能驱动的声乐和器乐音轨去除",
+          "url": "https://www.lalal.ai/",
+          "host": "lalal.ai",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "[滑动窗口真滴简单!] 闪电五连鞭带你秒杀12道中档题 (附详情解析) - 无重复字符的最长子串 - 力扣（LeetCode）",
+          "url": "https://leetcode.cn/problems/longest-substring-without-repeating-characters/solution/yi-ge-mo-ban-miao-sha-10dao-zhong-deng-n-sb0x/",
+          "host": "leetcode.cn",
+          "group": "开发与工具",
+          "folder": "稍后再读",
+          "browser": "Edge"
+        },
+        {
+          "title": "力扣",
+          "url": "https://leetcode.cn/",
+          "host": "leetcode.cn",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "凌风云搜索",
+          "url": "https://www.lingfengyun.com/",
+          "host": "lingfengyun.com",
+          "group": "开发与工具",
+          "folder": "yundownload",
+          "browser": "Edge"
+        },
+        {
+          "title": "LintCode 炼码",
+          "url": "https://www.lintcode.com/",
+          "host": "lintcode.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "菜鸟教程移动端",
+          "url": "https://m.runoob.com/",
+          "host": "m.runoob.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "码志",
+          "url": "https://mazhuang.org/",
+          "host": "mazhuang.org",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "anaconda | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror",
+          "url": "https://mirror.tuna.tsinghua.edu.cn/help/anaconda/",
+          "host": "mirror.tuna.tsinghua.edu.cn",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "北京外国语大学开源软件镜像站 | BFSU Open Source Mirror",
+          "url": "https://mirrors.bfsu.edu.cn/",
+          "host": "mirrors.bfsu.edu.cn",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "web服务器之缓冲区的自动增长的实现原理 - 墨天轮",
+          "url": "https://www.modb.pro/db/119783",
+          "host": "modb.pro",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "Momenta",
+          "url": "https://momenta.jobs.feishu.cn/intern/position/application",
+          "host": "momenta.jobs.feishu.cn",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0304春招笔试题解析",
+          "url": "https://mp.weixin.qq.com/s/lsVPVPvMLwoDrMbcUGG2tQ",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0311春招实习笔试算法题解析",
+          "url": "https://mp.weixin.qq.com/s/tioMc6wTa8eC_NswCPchog",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0318春招实习笔试算法题解析",
+          "url": "https://mp.weixin.qq.com/s/8RPPJKWjSqdZ9kam-fz0hA",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0325春招实习笔试算法题解析",
+          "url": "https://mp.weixin.qq.com/s/GDl05D0GnbnMB-_s62gJSQ",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0401春招实习笔试算法题解析",
+          "url": "https://mp.weixin.qq.com/s/URY7r7iS3kw_g1EqHKvurw",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0408春招实习笔试算法题解析",
+          "url": "https://mp.weixin.qq.com/s/EMeJQ4lj9rF-nLGpJumUZw",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0415实习春招笔试算法解析",
+          "url": "https://mp.weixin.qq.com/s/W1fXUR-HF9We3ot8i7lYlQ",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0429暑期实习笔试真题解析",
+          "url": "https://mp.weixin.qq.com/s/TPga-x5Qc9AZr_f9_bHUnA",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "美团0513暑期实习笔试解析",
+          "url": "https://mp.weixin.qq.com/s/ZejN_D57IBN1tPrfeBND6Q",
+          "host": "mp.weixin.qq.com",
+          "group": "开发与工具",
+          "folder": "美团",
+          "browser": "Edge"
+        },
+        {
+          "title": "蔚来校园招聘",
+          "url": "https://nio.jobs.feishu.cn/campus/position/application?spread=7Q6WWWR",
+          "host": "nio.jobs.feishu.cn",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "Nite07的小窝 - Share And Release",
+          "url": "https://www.nite07.com/",
+          "host": "nite07.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "一加手机官网",
+          "url": "https://www.oneplus.com/cn",
+          "host": "oneplus.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "OSCHINA",
+          "url": "https://www.oschina.net/",
+          "host": "oschina.net",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "使用 Pandas 清理货币数据 - 实用的商业 Python",
+          "url": "https://pbpython.com/currency-cleanup.html",
+          "host": "pbpython.com",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "ProcessOn - 免费在线作图，思维导图，流程图，实时协作",
+          "url": "https://www.processon.com/",
+          "host": "processon.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "代码随想录",
+          "url": "https://programmercarl.com/",
+          "host": "programmercarl.com",
+          "group": "开发与工具",
+          "folder": "知识星球",
+          "browser": "Edge"
+        },
+        {
+          "title": "(2) Machine Learning",
+          "url": "https://www.reddit.com/r/MachineLearning/",
+          "host": "reddit.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "热铁盒软件",
+          "url": "https://www.retiehe.com/",
+          "host": "retiehe.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "菜鸟教程",
+          "url": "https://www.runoob.com/",
+          "host": "runoob.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "saber酱的抱枕",
+          "url": "https://saber.love/",
+          "host": "saber.love",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "SegmentFault 思否",
+          "url": "https://segmentfault.com/",
+          "host": "segmentfault.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "个人C++学习路线大公开_侯捷",
+          "url": "https://www.sohu.com/a/443197441_373022",
+          "host": "sohu.com",
+          "group": "开发与工具",
+          "folder": "知识星球",
+          "browser": "Edge"
+        },
+        {
+          "title": "Sourcegraph",
+          "url": "https://sourcegraph.com/search",
+          "host": "sourcegraph.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "Stack Overflow",
+          "url": "https://stackoverflow.com/",
+          "host": "stackoverflow.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "CYD--Blog",
+          "url": "https://steroal.cn/",
+          "host": "steroal.cn",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "MYBLOG",
+          "url": "https://steroal.github.io/",
+          "host": "steroal.github.io",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "TinEye - Reverse Image Search and Recognition",
+          "url": "https://tineye.com/",
+          "host": "tineye.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "Learn to Type | Type Better | Type Faster - Typing.com - Typing.com",
+          "url": "https://www.typing.com/",
+          "host": "typing.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "V2EX",
+          "url": "https://www.v2ex.com/",
+          "host": "v2ex.com",
+          "group": "开发与工具",
+          "folder": "Code",
+          "browser": "Edge"
+        },
+        {
+          "title": "超级简历",
+          "url": "https://www.wondercv.com/cvs",
+          "host": "wondercv.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "简历",
+          "url": "https://www.wondercv.com/cvs/57_Fi2gq/editor",
+          "host": "wondercv.com",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "国外网站大全",
+          "url": "http://www.world68.com/",
+          "host": "world68.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "知识星球",
+          "url": "https://wx.zsxq.com/dweb2/",
+          "host": "wx.zsxq.com",
+          "group": "开发与工具",
+          "folder": "知识星球",
+          "browser": "Edge"
+        },
+        {
+          "title": "果冻的猿宇宙 – Just Do IT，放胆做挨踢",
+          "url": "https://xiaogd.net/",
+          "host": "xiaogd.net",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "小林coding",
+          "url": "https://xiaolincoding.com/",
+          "host": "xiaolincoding.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "小猪快盘",
+          "url": "https://www.xiaozhukuaipan.com/",
+          "host": "xiaozhukuaipan.com",
+          "group": "开发与工具",
+          "folder": "yundownload",
+          "browser": "Edge"
+        },
+        {
+          "title": "音子AI-在线免费视频消音、消除人声、去除人声",
+          "url": "https://www.yinziai.com/",
+          "host": "yinziai.com",
+          "group": "开发与工具",
+          "folder": "Tools",
+          "browser": "Edge"
+        },
+        {
+          "title": "字节跳动日常实习面经 - 渊行のblog",
+          "url": "https://yusart.xyz/archives/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E6%97%A5%E5%B8%B8%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F",
+          "host": "yusart.xyz",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "Google C++ 风格指南",
+          "url": "https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/",
+          "host": "zh-google-styleguide.readthedocs.io",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "categories | 小歪的博客",
+          "url": "https://zhangslob.github.io/categories/",
+          "host": "zhangslob.github.io",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "快手招聘",
+          "url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/my-apply/",
+          "host": "zhaopin.kuaishou.cn",
+          "group": "开发与工具",
+          "folder": "投简历",
+          "browser": "Edge"
+        },
+        {
+          "title": "线程函数为静态或者全局函数 c++ CreateThread 在类中使用，要如何声明线程函数？ - 知乎",
+          "url": "https://www.zhihu.com/question/595328519#:~:text=3%20%E4%B8%AA%E5%9B%9E%E7%AD%94%201,%E7%BA%BF%E7%A8%8B%E5%87%BD%E6%95%B0%E5%BF%85%E9%A1%BB%E6%98%AF%E9%9D%99%E6%80%81%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0%E6%88%96%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0%EF%BC%8C%E5%9B%A0%E4%B8%BA%E9%9D%9E%E9%9D%99%E6%80%81%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0%E9%9C%80%E8%A6%81%E9%80%9A%E8%BF%87%E5%AF%B9%E8%B1%A1%E6%9D%A5%E8%B0%83%E7%94%A8%EF%BC%8C%E8%80%8CCreateThread%E5%87%BD%E6%95%B0%E5%8F%AA%E8%83%BD%E6%8E%A5%E5%8F%97%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88%E4%BD%9C%E4%B8%BA%E5%8F%82%E6%95%B0%E3%80%82%202%20%E7%BA%BF%E7%A8%8B%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0%E5%BF%85%E9%A1%BB%E6%98%AFLPVOID%E7%B1%BB%E5%9E%8B%EF%BC%8C%E5%9B%A0%E4%B8%BACreateThread%E5%87%BD%E6%95%B0%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0%E6%98%AFLPVOID%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%8C%87%E9%92%88%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BC%A0%E9%80%92%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%82%E6%95%B0%E3%80%82",
+          "host": "zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "彻底搞懂MySQL的主键索引、普通索引和联合索引 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/479164948",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "数据库",
+          "browser": "Edge"
+        },
+        {
+          "title": "从内核看epoll的实现（基于5.9.9） - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/384098769",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "电脑怎么设置定时关机、取消定时关机？ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/501466829#:~:text=%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E3%80%81%E5%8F%96%E6%B6%88%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%EF%BC%9F%201%20%E4%B8%80%E3%80%81%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E6%96%B9%E6%B3%95%E4%B8%80%20%28%E6%8C%87%E5%AE%9AX%E7%A7%92%E5%90%8E%E5%85%B3%E6%9C%BA%29window10-11%202%20%E2%91%A0%E6%8C%89Win%2BR%E9%94%AE,3%20%E2%91%A1%E8%BE%93%E5%85%A5%20Shutdown%20-s%20-t%203600",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "稍后再读",
+          "browser": "Edge"
+        },
+        {
+          "title": "基于C++11实现线程池 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/367309864",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "基于muduo网络库的Webserver - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/533897842",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "项目",
+          "browser": "Edge"
+        },
+        {
+          "title": "深入理解什么是端口(port) - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/225777212",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "深入理解TCP/IP协议的实现之accept（基于linux1.2.13） - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/111523468",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "深入浅出——理解c/c++函数指针 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/37306637",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "万字长文梳理Muduo库核心代码及优秀编程细节思想剖析 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/495016351",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "线程池有哪 4 种拒绝策略？ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/214205558",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "一文读懂C++右值引用和std::move - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/335994370",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "一文看懂IO多路复用 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/115220699",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "怎么解决TCP网络传输「粘包」问题？ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/387256713",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++ 中让人头秃的 typedef & typename - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/610359959",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++ Lambda表达式的完整介绍 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/384314474",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "C++",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++ typedef & typename知识点总结 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/617664673",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "C++设计模式之《单例模式》深度详解",
+          "url": "https://zhuanlan.zhihu.com/p/628686575",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Blog",
+          "browser": "Edge"
+        },
+        {
+          "title": "HTTP 中的 301、302、303、307、308 响应状态码 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/60669395",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "IO多路复用——深入浅出理解select、poll、epoll的实现 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/367591714",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "计网知识",
+          "browser": "Edge"
+        },
+        {
+          "title": "jupyter快捷键",
+          "url": "https://zhuanlan.zhihu.com/p/100020058",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "Python",
+          "browser": "Edge"
+        },
+        {
+          "title": "Live555开源项目（1）----初步介绍 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/73385262",
+          "host": "zhuanlan.zhihu.com",
+          "group": "开发与工具",
+          "folder": "稍后再读",
+          "browser": "Edge"
+        }
+      ]
+    },
+    {
+      "name": "学习与资料",
+      "items": [
+        {
+          "title": "Google学术镜像",
+          "url": "http://4243.net/",
+          "host": "4243.net",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "谷歌学术镜像",
+          "url": "http://ac.scmor.com/",
+          "host": "ac.scmor.com",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "AnyKnew",
+          "url": "https://www.anyknew.com/#/",
+          "host": "anyknew.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "嵌入式经验分享",
+          "url": "https://articles.zsxq.com/id_j63awedrljv4.html",
+          "host": "articles.zsxq.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "ask Ubuntu",
+          "url": "https://askubuntu.com/",
+          "host": "askubuntu.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "百度",
+          "url": "http://baidu.lmtdh.cn/",
+          "host": "baidu.lmtdh.cn",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "中国电子技术论坛",
+          "url": "http://bbs.elecfans.com/",
+          "host": "bbs.elecfans.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "(已解决)请问怎么关闭\"无法打开此ms-gamebar\"弹窗，谢谢？-远景论坛-微软极客社区",
+          "url": "https://bbs.pcbeta.com/viewthread-1972471-1-1.html",
+          "host": "bbs.pcbeta.com",
+          "group": "学习与资料",
+          "folder": "PC",
+          "browser": "Edge"
+        },
+        {
+          "title": "Big Think",
+          "url": "https://bigthink.com/",
+          "host": "bigthink.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "双系统蓝牙配对问题【附源码】_Hichens_51CTO博客",
+          "url": "https://blog.51cto.com/u_15323724/3290275",
+          "host": "blog.51cto.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "(14条消息) Windows10右键添加“在此处打开命令窗口”_会意的博客-CSDN博客_在此处打开命令窗口",
+          "url": "https://blog.csdn.net/mooneve/article/details/78821843",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "win10",
+          "browser": "Edge"
+        },
+        {
+          "title": "(31条消息) 解决Windows10与Ubuntu16.04双系统时间不一样问题！（亲测，真正的正确方案）_CSDN-CSDN博客",
+          "url": "https://blog.csdn.net/zyqblog/article/details/79318955",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "(33条消息) Ubuntu 安装 Stardict（星际译王）_似水流年-CSDN博客_stardict安装",
+          "url": "https://blog.csdn.net/bc516125634/article/details/87429384",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "(33条消息) ubuntu下安装屏幕取词软件记录_shikongjingliu的博客-CSDN博客",
+          "url": "https://blog.csdn.net/shikongjingliu/article/details/114947305",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "(5条消息) VMware安装ubuntu-20.04操作系统_zhangbeizhen18的博客-CSDN博客_vmware安装ubuntu20",
+          "url": "https://blog.csdn.net/zhangbeizhen18/article/details/106453935",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "安装Pycharm",
+          "url": "https://blog.csdn.net/feimeng116/article/details/105837483",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "鼠标右键打开命令行cmd(管理员身份）_Yunwubanjian的博客-CSDN博客_鼠标右键打开cmd",
+          "url": "https://blog.csdn.net/Yunwubanjian/article/details/88632599",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "win10",
+          "browser": "Edge"
+        },
+        {
+          "title": "在Ubuntu18.04.2LTS上使用wine安装qq，微信，迅雷，百度网盘，网易云音乐等软件_weixin_30480583的博客-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_30480583/article/details/98106618",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "CUDA+cuDNN",
+          "url": "https://blog.csdn.net/choimroc/article/details/104735680?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163801641416780366522183%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163801641416780366522183&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-104735680.first_rank_v2_pc_rank_v29&utm_term=ubuntu%E5%AE%89%E8%A3%85cuda&spm=1018.2226.3001.4187#1_CUDA_16",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "DuckDuckGo Readme",
+          "url": "https://blog.csdn.net/freeking101/article/details/83626206",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "PC",
+          "browser": "Edge"
+        },
+        {
+          "title": "gnome-terminal技巧_swust_long的专栏-CSDN博客_gnome-terminal",
+          "url": "https://blog.csdn.net/swust_long/article/details/7285147",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "gnome-terminal使用_ZONGXP的博客-CSDN博客",
+          "url": "https://blog.csdn.net/zong596568821xp/article/details/78623130",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Ubuntu20.04系统下3060显卡驱动安装记录",
+          "url": "https://blog.csdn.net/weixin_42413844/article/details/120115027",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "ubuntu开机自动打开终端并执行程序_weijifen000的博客-CSDN博客_ubuntu开机自动打开终端",
+          "url": "https://blog.csdn.net/weijifen000/article/details/88370085",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Ubuntu开机自启动的两种方法总结_yuchunhai321的博客-CSDN博客_ubuntu开机自启",
+          "url": "https://blog.csdn.net/yuchunhai321/article/details/85251944",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Ubuntu投影",
+          "url": "https://blog.csdn.net/qq_38863413/article/details/101454236",
+          "host": "blog.csdn.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "超星读书",
+          "url": "http://book.chaoxing.com/",
+          "host": "book.chaoxing.com",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "书伴",
+          "url": "https://bookfere.com/",
+          "host": "bookfere.com",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "中图网",
+          "url": "http://www.bookschina.com/",
+          "host": "bookschina.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "教程大全",
+          "url": "http://c.biancheng.net/",
+          "host": "c.biancheng.net",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "alias命令_Linux alias命令：给命令定义别名",
+          "url": "http://c.biancheng.net/linux/alias.html",
+          "host": "c.biancheng.net",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "ChatGPT",
+          "url": "https://chat.openai.com/",
+          "host": "chat.openai.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "SeaTable",
+          "url": "https://cloud.seatable.cn/",
+          "host": "cloud.seatable.cn",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "ubuntu18.04 & Windows10 双系统关机缓慢 - wasua - 博客园",
+          "url": "https://www.cnblogs.com/wasua/p/8992794.html",
+          "host": "cnblogs.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "[新手必读] Office Tool Plus 入门教程 - Yerong の小窝",
+          "url": "https://www.coolhub.top/archives/42",
+          "host": "coolhub.top",
+          "group": "学习与资料",
+          "folder": "win10",
+          "browser": "Edge"
+        },
+        {
+          "title": "c++语法",
+          "url": "http://www.cplusplus.com/",
+          "host": "cplusplus.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "CS231n Convolutional Neural Networks for Visual Recognition",
+          "url": "https://cs231n.github.io/",
+          "host": "cs231n.github.io",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Ubuntu下安装kde(kubuntu)桌面 _宁静致远-程序员宝宝 - 程序员宝宝",
+          "url": "https://www.cxybb.com/article/java211/3964056",
+          "host": "cxybb.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "ubuntu安装原生迅雷，让下载成为简单_自胜者-程序员宅基地 - 程序员宅基地",
+          "url": "https://www.cxyzjd.com/article/c2682736/71773806",
+          "host": "cxyzjd.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Dryad",
+          "url": "https://datadryad.org/stash/",
+          "host": "datadryad.org",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "DeviantArt",
+          "url": "https://www.deviantart.com/",
+          "host": "deviantart.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "每日英语听力",
+          "url": "https://dict.eudic.net/ting",
+          "host": "dict.eudic.net",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "词根词缀词典，记忆字典",
+          "url": "http://www.dicts.cn/",
+          "host": "dicts.cn",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "CUDA Toolkit版本",
+          "url": "https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html",
+          "host": "docs.nvidia.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "豆瓣",
+          "url": "https://www.douban.com/",
+          "host": "douban.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Google 云端",
+          "url": "https://drive.google.com/drive/my-drive",
+          "host": "drive.google.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "DuckDuckGo",
+          "url": "https://duckduckgo.com/?atb=v274-5ud&atb=v274-5ud",
+          "host": "duckduckgo.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "DuckDuckGo",
+          "url": "https://duckduckgo.com/",
+          "host": "duckduckgo.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "多抓鱼",
+          "url": "https://www.duozhuayu.com/",
+          "host": "duozhuayu.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "GNOME、KDE、Unity、Mate、Cinnamon……究竟哪个Linux桌面系统是你的菜？-面包板社区",
+          "url": "https://www.eet-china.com/mp/a10976.html",
+          "host": "eet-china.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "List of open-access journals - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_open-access_journals",
+          "host": "en.wikipedia.org",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "GNOME Shell Extensions",
+          "url": "https://extensions.gnome.org/",
+          "host": "extensions.gnome.org",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/home.php?ref=wizard",
+          "host": "facebook.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "有道翻译",
+          "url": "https://fanyi.youdao.com/index.html#/",
+          "host": "fanyi.youdao.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "fast.ai",
+          "url": "https://www.fast.ai/",
+          "host": "fast.ai",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "win10 + Ubuntu18 双系统 蓝牙键盘连接问题 - 灰信网（软件开发博客聚合）",
+          "url": "https://www.freesion.com/article/73621121936/",
+          "host": "freesion.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "机核 GCORES",
+          "url": "https://www.gcores.com/",
+          "host": "gcores.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/",
+          "host": "geeksforgeeks.org",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "dash-to-panel",
+          "url": "https://github.com/home-sweet-gnome/dash-to-panel",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "Deepin Wine for Ubuntu",
+          "url": "https://github.com/wszqkzqk/deepin-wine-ubuntu",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "deepin-wine",
+          "url": "https://github.com/zq1997/deepin-wine",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "Search · wine · GitHub",
+          "url": "https://github.com/search?q=wine",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "ShellClash: One-click deployment and management of Clash services using Shell scripts in Linux environment",
+          "url": "https://github.com/juewuy/ShellClash",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "vinceliuice/Orchis-theme: Orchis is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environme",
+          "url": "https://github.com/vinceliuice/Orchis-theme",
+          "host": "github.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "Greatist",
+          "url": "https://greatist.com/",
+          "host": "greatist.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "chat8",
+          "url": "https://guan.chat779.com/#/home",
+          "host": "guan.chat779.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "虎课网",
+          "url": "https://huke88.com/",
+          "host": "huke88.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "中国大学MOOC",
+          "url": "https://www.icourse163.org/",
+          "host": "icourse163.org",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "分享5个如何给Ubuntu系统清理磁盘空间、清除垃圾的方法 - IPlayIO中文网",
+          "url": "https://www.iplayio.cn/post/5778535",
+          "host": "iplayio.cn",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "ubuntu启动时执行启动脚本流程_ListenerRi的博客-程序员ITS203 - 程序员ITS203",
+          "url": "https://www.its203.com/article/Listener_ri/45128569",
+          "host": "its203.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "IT天空",
+          "url": "https://www.itsk.com/",
+          "host": "itsk.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Jiumo Search 鸠摩搜索 - 文档搜索引擎",
+          "url": "https://www.jiumodiary.com/",
+          "host": "jiumodiary.com",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "Linux篇：Gnome美化 - 掘金",
+          "url": "https://juejin.cn/post/6875280250939375624",
+          "host": "juejin.cn",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "可可英语",
+          "url": "http://www.kekenet.com/",
+          "host": "kekenet.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "苦瓜书盘",
+          "url": "https://www.kgbook.com/",
+          "host": "kgbook.com",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "孔夫子旧书网",
+          "url": "https://www.kongfz.com/",
+          "host": "kongfz.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "Learn C++",
+          "url": "https://www.learncpp.com/",
+          "host": "learncpp.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "廖雪峰的官方网站",
+          "url": "https://www.liaoxuefeng.com/",
+          "host": "liaoxuefeng.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Library Genesis",
+          "url": "http://libgen.rs/",
+          "host": "libgen.rs",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "青柠起始页",
+          "url": "https://limestart.cn/",
+          "host": "limestart.cn",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "鸟哥的Linux 私房菜",
+          "url": "http://linux.vbird.org/linux_basic/0320bash.php#variable_environ",
+          "host": "linux.vbird.org",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Lookmunk",
+          "url": "https://www.lookmunk.com/",
+          "host": "lookmunk.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/",
+          "host": "medium.com",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "YouTube Music",
+          "url": "https://music.youtube.com/",
+          "host": "music.youtube.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "PMC",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+          "host": "ncbi.nlm.nih.gov",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "国家哲学社会科学文献中心",
+          "url": "http://www.ncpssd.org/index.aspx",
+          "host": "ncpssd.org",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "Hacker News",
+          "url": "https://news.ycombinator.com/news",
+          "host": "news.ycombinator.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Microsoft 365",
+          "url": "https://www.office.com/?auth=1",
+          "host": "office.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "onenote",
+          "url": "https://www.onenote.com/notebooks?wdorigin=+ondchrd&auth=1&nf=1&fromAR=1",
+          "host": "onenote.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Index of /deepin/pool/non-free/d/deepin.com.qq.im/",
+          "url": "http://packages.deepin.com/deepin/pool/non-free/d/deepin.com.qq.im/",
+          "host": "packages.deepin.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "百度网盘",
+          "url": "https://pan.baidu.com/disk/home?#/all?path=%2F&vmode=list",
+          "host": "pan.baidu.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "当当of拼多多",
+          "url": "http://panduoduo.yangkeduo.com/mall_page.html?mall_id=105438280&msn=f5o7sos42ztroopv24syph4y2u_axbuy&has_decoration=1&_x_query=%E5%BD%93%E5%BD%93%E7%BD%91%E4%B9%A6%E5%BA%97&refer_page_el_sn=99579&refer_rn=&refer_page_name=search_result&refer_page_id=10015_1626755339851_g71nvbup7w&refer_page_sn=10015",
+          "host": "panduoduo.yangkeduo.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "PTA",
+          "url": "https://pintia.cn/",
+          "host": "pintia.cn",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "pixiv",
+          "url": "https://www.pixiv.net/",
+          "host": "pixiv.net",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "pling.com",
+          "url": "https://www.pling.com/",
+          "host": "pling.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "System Sounds - pling.com",
+          "url": "https://www.pling.com/browse?cat=316&ord=latest",
+          "host": "pling.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "Pluralsight + Code School",
+          "url": "https://www.pluralsight.com/codeschool",
+          "host": "pluralsight.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "程序员客栈",
+          "url": "https://www.proginn.com/",
+          "host": "proginn.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Paraphrasing Tool - QuillBot AI",
+          "url": "https://quillbot.com/",
+          "host": "quillbot.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Quora",
+          "url": "https://www.quora.com/?share=1",
+          "host": "quora.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "reddit",
+          "url": "https://www.reddit.com/",
+          "host": "reddit.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "日語.io",
+          "url": "https://riyu.io/",
+          "host": "riyu.io",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Google 学术",
+          "url": "https://scholar.google.com/",
+          "host": "scholar.google.com",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "Sci-Hub:SciHub科研学术网址导航",
+          "url": "https://www.scihub.net.cn/",
+          "host": "scihub.net.cn",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "Snapcraft",
+          "url": "https://snapcraft.io/",
+          "host": "snapcraft.io",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "少数派",
+          "url": "https://sspai.com/",
+          "host": "sspai.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "3 种实用方法：手把手教你升级到 Windows 11 24H2 - 系统极客",
+          "url": "https://www.sysgeek.cn/upgrade-windows-11-24h2/",
+          "host": "sysgeek.cn",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "Teach Anything",
+          "url": "https://www.teach-anything.com/",
+          "host": "teach-anything.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Checking your credentials...",
+          "url": "https://teams.live.com/go#",
+          "host": "teams.live.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Microsoft Teams",
+          "url": "https://teams.live.com/_?utm_source=OfficeWeb#/conversations/?ctx=chat",
+          "host": "teams.live.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "TED",
+          "url": "https://www.ted.com/",
+          "host": "ted.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "www.thinbug.com",
+          "url": "https://www.thinbug.com/q/48137501",
+          "host": "thinbug.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "今日热榜",
+          "url": "https://tophub.today/",
+          "host": "tophub.today",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Google 翻译",
+          "url": "https://translate.google.cn/",
+          "host": "translate.google.cn",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Google 翻译",
+          "url": "https://translate.google.com.hk/?hl=zh-CN&sourceid=cnhp",
+          "host": "translate.google.com.hk",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Twitch",
+          "url": "https://www.twitch.tv/",
+          "host": "twitch.tv",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "Explore / Twitter",
+          "url": "https://twitter.com/explore",
+          "host": "twitter.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "Square (@Square) / Twitter",
+          "url": "https://twitter.com/square",
+          "host": "twitter.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "全国图书馆参考咨询联盟",
+          "url": "http://www.ucdrs.net/",
+          "host": "ucdrs.net",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "University of Vermont Neurobotics Lab",
+          "url": "http://www.uvm.edu/neurobotics",
+          "host": "uvm.edu",
+          "group": "学习与资料",
+          "folder": "Academic",
+          "browser": "Edge"
+        },
+        {
+          "title": "w3school",
+          "url": "https://www.w3school.com.cn/index.html",
+          "host": "w3school.com.cn",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "沃客导航",
+          "url": "https://www.waysto.work/",
+          "host": "waysto.work",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "微博",
+          "url": "https://www.weibo.com/login.php",
+          "host": "weibo.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "万相之王 - 这一箭 - 天蚕土豆 - 微信读书",
+          "url": "https://weread.qq.com/web/reader/02732aa0723a3124027a5dbk4073265035074079016dc24?",
+          "host": "weread.qq.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "ROS/Tutorials - ROS Wiki",
+          "url": "http://wiki.ros.org/ROS/Tutorials#Tutorials_for_Libraries_with_ROS_Interfaces",
+          "host": "wiki.ros.org",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "Wikipedia",
+          "url": "https://www.wikipedia.org/",
+          "host": "wikipedia.org",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "万相之王(天蚕土豆)全文阅读|最新章节|TXT下载|无广告弹窗",
+          "url": "https://www.wxscs.com/book/wanxiangzhiwang/",
+          "host": "wxscs.com",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "有路",
+          "url": "https://www.youlu.net/",
+          "host": "youlu.net",
+          "group": "学习与资料",
+          "folder": "BOOK",
+          "browser": "Edge"
+        },
+        {
+          "title": "GNOME Layout Manager - Easy Way Make GNOME Desktop Look Like Mac OS, Windows 10 or Unity - YouTube",
+          "url": "https://www.youtube.com/watch?v=-vLyATrgFcw",
+          "host": "youtube.com",
+          "group": "学习与资料",
+          "folder": "gnome extension",
+          "browser": "Edge"
+        },
+        {
+          "title": "YouTube",
+          "url": "https://www.youtube.com/",
+          "host": "youtube.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "Arduino 与 Python：如何开始",
+          "url": "https://zditect.com/main-advanced/python/arduino-python.html",
+          "host": "zditect.com",
+          "group": "学习与资料",
+          "folder": "Study",
+          "browser": "Edge"
+        },
+        {
+          "title": "数字图书馆",
+          "url": "https://zh.booksc.org/",
+          "host": "zh.booksc.org",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        },
+        {
+          "title": "(6 封私信 / 39 条消息) ubuntu装机必备 - 搜索结果 - 知乎",
+          "url": "https://www.zhihu.com/search?q=ubuntu%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87&utm_content=search_suggestion&type=content",
+          "host": "zhihu.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "知乎",
+          "url": "https://www.zhihu.com/",
+          "host": "zhihu.com",
+          "group": "学习与资料",
+          "folder": "Goto",
+          "browser": "Edge"
+        },
+        {
+          "title": "121个快捷键",
+          "url": "https://zhuanlan.zhihu.com/p/32878307",
+          "host": "zhuanlan.zhihu.com",
+          "group": "学习与资料",
+          "folder": "Ubuntu",
+          "browser": "Edge"
+        },
+        {
+          "title": "Bitbucket 使用手册 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/159071804",
+          "host": "zhuanlan.zhihu.com",
+          "group": "学习与资料",
+          "folder": "翻翻翻",
+          "browser": "Edge"
+        },
+        {
+          "title": "走读派读书导航 - 读书学习第一站！",
+          "url": "http://www.zoudupai.com/",
+          "host": "zoudupai.com",
+          "group": "学习与资料",
+          "folder": "ebook",
+          "browser": "Edge"
+        }
+      ]
+    },
+    {
+      "name": "生活与杂项",
+      "items": [
+        {
+          "title": "生意社",
+          "url": "https://www.100ppi.com/",
+          "host": "100ppi.com",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "17吉他网",
+          "url": "http://www.17jita.com/",
+          "host": "17jita.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "switch520-gamer520-全球热门游戏白嫖网",
+          "url": "https://www.520switch.com/",
+          "host": "520switch.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "鼓掌财经",
+          "url": "https://724.guzhang.com/",
+          "host": "724.guzhang.com",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "88直播",
+          "url": "https://88zb1.com/?agent=gongzhonghao&app=lqjx#/",
+          "host": "88zb1.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "生存日誌",
+          "url": "https://acgnhouse.com/",
+          "host": "acgnhouse.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Mikutap",
+          "url": "https://aidn.jp/mikutap/",
+          "host": "aidn.jp",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "巴哈姆特動畫瘋",
+          "url": "https://ani.gamer.com.tw/",
+          "host": "ani.gamer.com.tw",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "我的英雄學院 第六季 – Anime1.me 動畫線上看",
+          "url": "https://anime1.me/category/2022%E5%B9%B4%E7%A7%8B%E5%AD%A3/%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%B8%E9%99%A2-%E7%AC%AC%E5%85%AD%E5%AD%A3",
+          "host": "anime1.me",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Anime1.me 動畫線上看 – 上百部動漫免費線上看！",
+          "url": "https://anime1.me/",
+          "host": "anime1.me",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Apex Legends Stats, Leaderboards & More! - Apex Legends Tracker",
+          "url": "https://apex.tracker.gg/",
+          "host": "apex.tracker.gg",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "piano",
+          "url": "https://app.flowkey.com.cn/intro",
+          "host": "app.flowkey.com.cn",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "Baka-Tsuki",
+          "url": "https://www.baka-tsuki.org/project/index.php?title=Main_Page",
+          "host": "baka-tsuki.org",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "原神社区-米游社",
+          "url": "https://bbs.mihoyo.com/ys/",
+          "host": "bbs.mihoyo.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "DOTA2 NGA",
+          "url": "https://bbs.nga.cn/thread.php?fid=321&rand=34",
+          "host": "bbs.nga.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "【新提醒】打开yoso后游戏无法加载的解决方案，yoso得格莱奥丹的方法 - YOSO相关 - 雷小伊 - 赛尔号论坛 - Powered by Discuz!",
+          "url": "https://bbs.tiepi.top/forum.php?mod=viewthread&tid=5738&highlight=%E6%A0%BC%E8%8E%B1%E5%A5%A5%E4%B8%B9",
+          "host": "bbs.tiepi.top",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "雷小伊 - 赛尔号论坛 - Powered by Discuz!",
+          "url": "https://bbs.tiepi.top/forum.php",
+          "host": "bbs.tiepi.top",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "English Names - Behind the Name",
+          "url": "https://www.behindthename.com/names/usage/english",
+          "host": "behindthename.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "三角洲露娜点位大全",
+          "url": "https://bestluna.cn/",
+          "host": "bestluna.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "【Ryujinx模拟器整合版】NS龙神模拟器（不定时更新） - 哔哩哔哩",
+          "url": "https://www.bilibili.com/read/cv21616142",
+          "host": "bilibili.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "哔哩哔哩",
+          "url": "https://www.bilibili.com/",
+          "host": "bilibili.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "采邑地（43-55）本集共13个眠枭之星/其中包含晨曦山1个（50）_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1NMQCBtECp?vd_source=dfef2bf92245fbbb7cc219332703a5c8&spm_id_from=333.788.player.switch&p=7",
+          "host": "bilibili.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "标准地图服务系统",
+          "url": "http://bzdt.ch.mnr.gov.cn/download.html?superclassName=%25E4%25B8%25AD%25E5%259B%25BD%25E5%2585%25A8%25E5%259B%25BE",
+          "host": "bzdt.ch.mnr.gov.cn",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "知妖",
+          "url": "http://www.cbaigui.com/",
+          "host": "cbaigui.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "DeepSeek - 探索未至之境",
+          "url": "https://chat.deepseek.com/",
+          "host": "chat.deepseek.com",
+          "group": "生活与杂项",
+          "folder": "",
+          "browser": "Edge"
+        },
+        {
+          "title": "Choice数据",
+          "url": "https://choice.eastmoney.com/",
+          "host": "choice.eastmoney.com",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "产品详情 | 众归云",
+          "url": "https://cloud.zhongguiyun.com/servicedetail?id=28708",
+          "host": "cloud.zhongguiyun.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "巨潮资讯网",
+          "url": "https://www.cninfo.com.cn/",
+          "host": "cninfo.com.cn",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "Gravity Points",
+          "url": "https://codepen.io/akm2/full/rHIsa?__cf_chl_jschl_tk__=7d1e673c6d79a4db8242457ed1950229768db33b-1585211099-0-AXJ9Bbf_VhSoX5hAGCYJrjnZWyIn5WRBHqI-L7NfuYje6YmM3m4ODLMhGK296IywiEbwlIozNLpo5Q82yEXQ1crITDNGgjYGVU9IAjrT5lWBlTk4GPSymTB0jp6ko0GQ1xytMUK4Ei-Ysu1AQHabtpxIiURsCl0BaOT5HjAQ5RFpTsM-YZfH2qvE-NKMoC1pjW37-2Ex1czMBQGfwK-ej5vJxjx-rSjQ56Yrgnq3m8uDp-XOJqEF_tTdrhBkKnIpch8hXnz3vCqK0Af2yEwm4O-LT2SvdQnsLcJ5hOw3M1wp3iGA-vR0a556caat5-ENk8eLVXHCP6BAun9Pql3oRFVzw2BoGAxnEhNVRgqVg8KS",
+          "host": "codepen.io",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "漫猫动漫BT下载",
+          "url": "http://comicat.org/",
+          "host": "comicat.org",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "找色差小游戏",
+          "url": "http://www.cuishuai.cc/game/",
+          "host": "cuishuai.cc",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "茶杯狐 Cupfox",
+          "url": "https://cupfox.app/",
+          "host": "cupfox.app",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "全站资源列表 | 大伟吉他教室",
+          "url": "https://www.daweijita.com/quan-zhan-zi-yuan-lie-biao",
+          "host": "daweijita.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "DeepL翻译：全世界最准确的翻译",
+          "url": "https://www.deepl.com/translator#zh/en/%E6%8E%A5%E5%8F%97%E4%B8%80%E4%B8%AA%E4%B8%80%E7%BB%B4%E7%9A%84%E8%84%91%E9%83%A8%E4%BF%A1%E5%8F%B7%E4%BA%A7%E7%94%9F%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%83%E7%A7%8D%E6%AD%A5%E6%80%81%E3%80%82%E4%B9%8B%E5%90%8E%E4%BD%BF%E7%94%A8%E8%BE%93%E5%87%BA%E4%BF%A1%E5%8F%B7%E6%8E%A7%E5%88%B6%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E6%AD%A5%E6%80%81%E3%80%82",
+          "host": "deepl.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Support.Dell.Com",
+          "url": "http://www.dell.com/support/home",
+          "host": "dell.com",
+          "group": "生活与杂项",
+          "folder": "Dell",
+          "browser": "Edge"
+        },
+        {
+          "title": "VoltaicxKovaak's练枪清单代码",
+          "url": "https://docs.qq.com/doc/DVGtyaFBvZUROV3Jo",
+          "host": "docs.qq.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "动漫啦",
+          "url": "https://www.dongman.la/?ref=wanyouw.com",
+          "host": "dongman.la",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "动漫花园资源网",
+          "url": "https://www.dongmanhuayuan.com/",
+          "host": "dongmanhuayuan.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "中文Dota 2 Wiki - 刀塔百科",
+          "url": "https://dota2.fandom.com/zh/wiki/Dota_2_Wiki",
+          "host": "dota2.fandom.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Dota2ProTracker - High MMR Dota 2 stats and Pro Players",
+          "url": "http://www.dota2protracker.com/",
+          "host": "dota2protracker.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "豆包 - 字节跳动旗下 AI 智能助手",
+          "url": "https://www.doubao.com/chat/?channel=xiazais",
+          "host": "doubao.com",
+          "group": "生活与杂项",
+          "folder": "",
+          "browser": "Edge"
+        },
+        {
+          "title": "易唱网",
+          "url": "http://www.echangwang.com/",
+          "host": "echangwang.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "c",
+          "url": "https://www.epidemicsound.com/",
+          "host": "epidemicsound.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "追新番",
+          "url": "http://fanxinzhui.com/",
+          "host": "fanxinzhui.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Flohio - Marbles | Foreignrap",
+          "url": "https://foreignrap.com/?song=6ibr0AglzaO84j8tGUHpSP&selection=latest",
+          "host": "foreignrap.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "漫画走廊",
+          "url": "https://freemh.xyz/",
+          "host": "freemh.xyz",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "巴哈姆特",
+          "url": "https://www.gamer.com.tw/",
+          "host": "gamer.com.tw",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "幻兽帕鲁图鉴",
+          "url": "https://www.gamersky.com/tools/palworldwiki/",
+          "host": "gamersky.com",
+          "group": "生活与杂项",
+          "folder": "",
+          "browser": "Edge"
+        },
+        {
+          "title": "Dollar Street - photos as data to kill country stereotypes",
+          "url": "https://www.gapminder.org/dollar-street",
+          "host": "gapminder.org",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "Getchu",
+          "url": "http://www.getchu.com/",
+          "host": "getchu.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Gnoosic - Discover new Music",
+          "url": "https://www.gnoosic.com/",
+          "host": "gnoosic.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "Music Suggestion: 林俊傑 - Gnoosic",
+          "url": "https://www.gnoosic.com/artist/%E6%9E%97%E4%BF%8A%E5%82%91",
+          "host": "gnoosic.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "慧博投研资讯",
+          "url": "http://www.hibor.org/",
+          "host": "hibor.org",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "HLTV",
+          "url": "https://www.hltv.org/",
+          "host": "hltv.org",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "萌幻之乡",
+          "url": "https://www.hmoe11.net/",
+          "host": "hmoe11.net",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "XMseer",
+          "url": "https://hybbx.lanzoub.com/b02l8i2bi",
+          "host": "hybbx.lanzoub.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "吉他视频教程",
+          "url": "https://i.xue.taobao.com/detail.htm?spm=a2174.7365761.39b9.21.YhZjod&courseId=24041",
+          "host": "i.xue.taobao.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "indiexpo",
+          "url": "https://www.indiexpo.net/",
+          "host": "indiexpo.net",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "爱奇艺",
+          "url": "https://www.iqiyi.com/",
+          "host": "iqiyi.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "旅法师营地",
+          "url": "https://www.iyingdi.com/",
+          "host": "iyingdi.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "邓老师吉他课程",
+          "url": "https://jiaoyu.taobao.com/course/QKT_3684288",
+          "host": "jiaoyu.taobao.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "JDGAME - 专注单机游戏试玩及正版推荐",
+          "url": "http://jindouyxt.com/Home/Index",
+          "host": "jindouyxt.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "吉他社",
+          "url": "https://www.jitashe.org/",
+          "host": "jitashe.org",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "韭研公社",
+          "url": "https://www.jiuyangongshe.com/",
+          "host": "jiuyangongshe.com",
+          "group": "生活与杂项",
+          "folder": "财经",
+          "browser": "Edge"
+        },
+        {
+          "title": "JRKAN直播",
+          "url": "http://www.jrskan.com/",
+          "host": "jrskan.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "非线性列车 — By. Juij",
+          "url": "https://juij.fun/#%E7%AB%99%E5%8F%B0%E5%AF%BC%E8%88%AA",
+          "host": "juij.fun",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "s5改枪码合集",
+          "url": "https://www.kdocs.cn/l/cfct3Ly0cZVh",
+          "host": "kdocs.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "kk看剧 | 美剧",
+          "url": "http://www.kkkanju.com/",
+          "host": "kkkanju.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "三角洲行动一图流",
+          "url": "https://www.kkrb.net/",
+          "host": "kkrb.net",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Liquipedia",
+          "url": "https://liquipedia.net/",
+          "host": "liquipedia.net",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "163",
+          "url": "https://mail.163.com/js6/main.jsp?sid=VBRecYctpwJcikCgVXttLqUISgfoKaBU&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D",
+          "host": "mail.163.com",
+          "group": "生活与杂项",
+          "folder": "Mail",
+          "browser": "Edge"
+        },
+        {
+          "title": "gmail",
+          "url": "https://mail.google.com/mail/?pli=1#inbox/FMfcgxwCgpcHxMRqpBwmNSqTVMgVBKlg",
+          "host": "mail.google.com",
+          "group": "生活与杂项",
+          "folder": "Mail",
+          "browser": "Edge"
+        },
+        {
+          "title": "ProtonMail",
+          "url": "https://mail.protonmail.com/inbox?welcome=true",
+          "host": "mail.protonmail.com",
+          "group": "生活与杂项",
+          "folder": "Mail",
+          "browser": "Edge"
+        },
+        {
+          "title": "QQ邮箱",
+          "url": "https://mail.qq.com/cgi-bin/frame_html?sid=a8atBukD8-FYPgdn&target=today",
+          "host": "mail.qq.com",
+          "group": "生活与杂项",
+          "folder": "Mail",
+          "browser": "Edge"
+        },
+        {
+          "title": "街机",
+          "url": "https://www.mamecn.com/",
+          "host": "mamecn.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "第704话 682 | 一人之下免费漫画 - 漫蛙漫画",
+          "url": "https://www.manwamh5.com/OoyaRJ6pM0/573575",
+          "host": "manwamh5.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "用户中心 | MCBBS高防云服务器租用",
+          "url": "https://mcbbs.watah.cn/clientarea",
+          "host": "mcbbs.watah.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "美剧天堂",
+          "url": "https://www.meijutt.tv/",
+          "host": "meijutt.tv",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Sabrina的万事屋",
+          "url": "https://merlinblog.xyz/cross.html",
+          "host": "merlinblog.xyz",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "首页 | 莫娜占卜铺",
+          "url": "https://mona-uranai.com/",
+          "host": "mona-uranai.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Mouse Sensitivity | Same Aim - Different Game",
+          "url": "https://www.mouse-sensitivity.com/",
+          "host": "mouse-sensitivity.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "壁纸列表",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI2Mzk5NzQ0Nw==&mid=2247493614&idx=1&sn=bf7b7b3f385cdf043ce4719ecec7e45b&chksm=eab1f686ddc67f90b918b7f659cab4a215b3753e83ae3db092cbdce1768c1e5fa1ce425aba11&scene=18#rd",
+          "host": "mp.weixin.qq.com",
+          "group": "生活与杂项",
+          "folder": "壁纸",
+          "browser": "Edge"
+        },
+        {
+          "title": "NGA玩家社区 - NGA.CN",
+          "url": "http://www.nga.cn/",
+          "host": "nga.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "红果短剧",
+          "url": "https://novelquickapp.com/",
+          "host": "novelquickapp.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "欧乐影院",
+          "url": "https://www.olevod.com/",
+          "host": "olevod.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "OmoFun动漫视频网 - (￣﹃￣)~omO",
+          "url": "https://omofun.in/",
+          "host": "omofun.in",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "OmoFun",
+          "url": "https://www.omofun.tv/",
+          "host": "omofun.tv",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Outlook",
+          "url": "https://outlook.live.com/mail/0/",
+          "host": "outlook.live.com",
+          "group": "生活与杂项",
+          "folder": "Mail",
+          "browser": "Edge"
+        },
+        {
+          "title": "Predict the zone",
+          "url": "https://predict-the-ring.onrender.com/",
+          "host": "predict-the-ring.onrender.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Dead by Daylight Codes",
+          "url": "https://progameguides.com/dead-by-daylight/dead-by-daylight-codes/",
+          "host": "progameguides.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "ProSettings.net - The Best Settings and Setups in Esports",
+          "url": "https://prosettings.net/",
+          "host": "prosettings.net",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "卓叔增重：增肌入门教学课价值498元-百度云下载_趣资料教程视频 - 趣资料",
+          "url": "https://www.quziliao.com/zhuoshuzengzhongzengjirumenjiaoxuekejiazhi498yuan-baiduyunxiazai_quziliaojiaochengshipin.html",
+          "host": "quziliao.com",
+          "group": "生活与杂项",
+          "folder": "Life",
+          "browser": "Edge"
+        },
+        {
+          "title": "驱动/固件下载-赛洛斯/SCYROX",
+          "url": "https://www.scyrox.cn/download",
+          "host": "scyrox.cn",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "海の見える駅 〜徒歩0分の景勝地〜",
+          "url": "https://seaside-station.com/",
+          "host": "seaside-station.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "赛尔号信息聚合页",
+          "url": "https://seer.hurry.wang/",
+          "host": "seer.hurry.wang",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Selfie2Anime",
+          "url": "https://selfie2anime.com/",
+          "host": "selfie2anime.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "鼠鼠卡战备 - 三角洲鼠鼠工具",
+          "url": "https://shushu.fan/kzb",
+          "host": "shushu.fan",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "www.staggeringbeauty.com",
+          "url": "http://www.staggeringbeauty.com/",
+          "host": "staggeringbeauty.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "SteamDB",
+          "url": "https://steamdb.info/",
+          "host": "steamdb.info",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "SteamPY",
+          "url": "https://www.steampy.com/home",
+          "host": "steampy.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "STRATZ - Dota 2 Stats",
+          "url": "https://stratz.com/welcome",
+          "host": "stratz.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "SubHD",
+          "url": "https://subhd.tv/",
+          "host": "subhd.tv",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "The Useless Web",
+          "url": "https://theuselessweb.com/",
+          "host": "theuselessweb.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "This Person Does Not Exist",
+          "url": "https://thispersondoesnotexist.com/",
+          "host": "thispersondoesnotexist.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "This Website Will Self Destruct",
+          "url": "https://www.thiswebsitewillselfdestruct.com/",
+          "host": "thiswebsitewillselfdestruct.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "Tokyo图书馆",
+          "url": "https://www.tokyotosho.info/",
+          "host": "tokyotosho.info",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Touch Pianist - Tap in Rhythm and Perform Your Favourite Music",
+          "url": "http://touchpianist.com/",
+          "host": "touchpianist.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "雷小伊 - 1784011998@qq.com 的分享",
+          "url": "https://url32.ctfile.com/d/42882732-61327918-79d5ca?p=4128",
+          "host": "url32.ctfile.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "Pine的魔法合集 - Pine 的分享",
+          "url": "https://url79.ctfile.com/d/45758379-59761216-e0238e?p=6688",
+          "host": "url79.ctfile.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "腾讯视频",
+          "url": "https://v.qq.com/",
+          "host": "v.qq.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "【小小指弹教程】陈亮中国风指弹——无题",
+          "url": "https://v.youku.com/v_show/id_XMTI2NDU3MzA0NA==.html?spm=a2hzp.8253869.0.0",
+          "host": "v.youku.com",
+          "group": "生活与杂项",
+          "folder": "guita",
+          "browser": "Edge"
+        },
+        {
+          "title": "壁纸",
+          "url": "https://wallhaven.cc/",
+          "host": "wallhaven.cc",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more",
+          "url": "https://www.webfx.com/tools/emoji-cheat-sheet/#video",
+          "host": "webfx.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "洛克王国:手游WIKI_BWIKI_哔哩哔哩",
+          "url": "https://wiki.biligame.com/rocom/%E9%A6%96%E9%A1%B5",
+          "host": "wiki.biligame.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "原神WIKI_玩家共建原神百科_BWIKI_哔哩哔哩",
+          "url": "https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5",
+          "host": "wiki.biligame.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        },
+        {
+          "title": "WindowSwap",
+          "url": "https://www.window-swap.com/Window",
+          "host": "window-swap.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "Windy: Shanghai 天气预报",
+          "url": "https://www.windy.com/31.210/121.440?55.160,136.780,6",
+          "host": "windy.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "91日剧",
+          "url": "http://www.wwmulu.com/",
+          "host": "wwmulu.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "Dell",
+          "url": "http://www1.ap.dell.com/content/default.aspx?c=cn&l=zh&s=gen",
+          "host": "www1.ap.dell.com",
+          "group": "生活与杂项",
+          "folder": "Dell",
+          "browser": "Edge"
+        },
+        {
+          "title": "爱壹帆国际版-海量高清视频免费在线观看",
+          "url": "https://www.yfsp.tv/",
+          "host": "yfsp.tv",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "樱花动漫",
+          "url": "https://www.yinghuadongman123.com/",
+          "host": "yinghuadongman123.com",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "2023年4月新番表 | YuC's AnimeList",
+          "url": "https://yuc.wiki/202304/",
+          "host": "yuc.wiki",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "wikiHow",
+          "url": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
+          "host": "zh.wikihow.com",
+          "group": "生活与杂项",
+          "folder": "Joy",
+          "browser": "Edge"
+        },
+        {
+          "title": "(42 封私信) 【回声Steam入坑指南】如何将账号从外区改回国区？ - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/188677736",
+          "host": "zhuanlan.zhihu.com",
+          "group": "生活与杂项",
+          "folder": "",
+          "browser": "Edge"
+        },
+        {
+          "title": "FIX字幕侠",
+          "url": "https://www.zimuxia.cn/%E6%88%91%E4%BB%AC%E7%9A%84%E4%BD%9C%E5%93%81?cat=fix%E6%97%A5%E8%AF%AD%E7%A4%BE",
+          "host": "zimuxia.cn",
+          "group": "生活与杂项",
+          "folder": "Movie",
+          "browser": "Edge"
+        },
+        {
+          "title": "准星代售-专业的游戏账号交易平台",
+          "url": "https://zxfps.com/tool/tool?url=https%3A%2F%2Ftool.zxfps.com%2F",
+          "host": "zxfps.com",
+          "group": "生活与杂项",
+          "folder": "Game",
+          "browser": "Edge"
+        }
+      ]
+    }
+  ]
+}

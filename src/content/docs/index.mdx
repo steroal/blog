@@ -1,31 +1,22 @@
 ---
-title: Blog
-description: 工作之外的技术笔记：自建服务、静态站、AI 工具，以及一些还没想清楚的想法。
+title: Steroal
+description: 工作之外的技术笔记：自建服务、静态站、AI 工具，以及一堆踩过的坑。
 template: splash
-# 站点名和首页标题相同，Starlight 默认会拼成「Blog | Blog」，这里覆盖掉
+# 站点名和首页标题相同，Starlight 默认会拼成「Steroal | Steroal」，这里覆盖掉
 head:
   - tag: title
-    content: Blog
+    content: Steroal
 hero:
   tagline: 工作之外的技术笔记。自建服务、静态站、AI 工具，和一堆踩过的坑。
   actions:
     - text: 从第一篇开始
       link: /tinker/why-static-blog/
-      icon: right-arrow
     - text: 关于这个站
       link: /about/
       variant: minimal
 editUrl: false
 ---
 
-import CategoryGrid from '../../components/CategoryGrid.astro';
-import RecentList from '../../components/RecentList.astro';
+import HomeIndex from '../../components/HomeIndex.astro';
 
-<CategoryGrid />
-
-<RecentList />
-
-<div class="not-content" style="border-top:1px solid var(--sl-color-hairline-light);padding-top:1.5rem;color:var(--sl-color-gray-3);font-size:0.85rem;line-height:1.8">
-  <p style="margin:0 0 .4rem">全站静态生成，不依赖外网 CDN、字体服务或第三方统计。</p>
-  <p style="margin:0">按 <kbd>/</kbd> 或点击右上角搜索，支持中文全文检索。</p>
-</div>
+<HomeIndex />

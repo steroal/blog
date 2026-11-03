@@ -13,70 +13,83 @@
   --ink-radius: 16px;
 }
 
-/* ---------- 浅色：暖纸底 + 靛蓝强调 ---------- */
+/* ---------- 浅色：白底 + 蓝紫主色（对齐参考站的色板） ---------- */
 :root[data-theme='light'] {
-  --sl-color-accent-low: #e9e6ff;
-  --sl-color-accent: #5b4bdb;
-  --sl-color-accent-high: #2b1f7d;
+  --sl-color-accent-low: #e8e8ff;
+  --sl-color-accent: #4242fa;
+  --sl-color-accent-high: #2c0b8e;
 
-  --sl-color-white: #1c1b22;
-  --sl-color-gray-1: #2b2a33;
-  --sl-color-gray-2: #46454f;
-  --sl-color-gray-3: #6b6a76;
-  --sl-color-gray-4: #9a99a5;
-  --sl-color-gray-5: #d7d5dd;
-  --sl-color-gray-6: #ebe9ef;
-  --sl-color-gray-7: #f4f2ee;
-  --sl-color-black: #fffdfa;
+  --sl-color-white: #0a0c10;
+  --sl-color-gray-1: #262d40;
+  --sl-color-gray-2: #3d455c;
+  --sl-color-gray-3: #5a6072;
+  --sl-color-gray-4: #9295a0;
+  --sl-color-gray-5: #d6d8e1;
+  --sl-color-gray-6: #e6e8f0;
+  --sl-color-gray-7: #f1f3f9;
+  --sl-color-black: #ffffff;
 
-  --sl-color-bg: #fbfaf7;
-  --sl-color-bg-nav: #fffdfa;
-  --sl-color-bg-sidebar: #fffdfa;
-  --sl-color-bg-inline-code: #f1eee9;
-  --sl-color-hairline-light: #eae7e1;
-  --sl-color-hairline: #e2ded7;
-  --sl-color-hairline-shade: #d5d0c8;
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: #ffffff;
+  --sl-color-bg-sidebar: #ffffff;
+  --sl-color-bg-inline-code: #f1f3f9;
+  --sl-color-hairline-light: #e6e8f0;
+  --sl-color-hairline: #d6d8e1;
+  --sl-color-hairline-shade: #c8cad0;
 
-  --sl-color-text: #24232a;
-  --sl-color-text-accent: #5b4bdb;
-  --sl-color-text-invert: #fffdfa;
+  --sl-color-text: #0a0c10;
+  --sl-color-text-accent: #4242fa;
+  --sl-color-text-invert: #ffffff;
 
-  --ink-shadow: 0 1px 2px rgba(28, 27, 34, 0.04), 0 8px 24px -12px rgba(28, 27, 34, 0.14);
-  --ink-shadow-lift: 0 2px 4px rgba(28, 27, 34, 0.05), 0 18px 40px -18px rgba(91, 75, 219, 0.32);
-  --ink-code-bg: #f7f5f1;
+  /* 参考站的粉、青、云色，用于强调和装饰 */
+  --ink-pink: #e60067;
+  --ink-sky-from: #a0d4ee;
+  --ink-sky-to: #7dc4e8;
+  --ink-cloud-300: #ddeef8;
+  --ink-cloud-500: #b1dff6;
+
+  --ink-shadow: 0 1px 2px rgba(10, 12, 16, 0.04), 0 8px 24px -12px rgba(10, 12, 16, 0.14);
+  --ink-shadow-lift: 0 2px 4px rgba(10, 12, 16, 0.05), 0 18px 40px -18px rgba(66, 66, 250, 0.32);
+  --ink-code-bg: #e8f1fc;
 }
 
-/* ---------- 深色：近墨底 + 亮紫强调 ---------- */
+/* ---------- 深色 ---------- */
 :root[data-theme='dark'] {
-  --sl-color-accent-low: #241f47;
-  --sl-color-accent: #a99bff;
-  --sl-color-accent-high: #ded8ff;
+  --sl-color-accent-low: #1a1f3d;
+  --sl-color-accent: #809fff;
+  --sl-color-accent-high: #c6d4ff;
 
-  --sl-color-white: #f4f2ff;
-  --sl-color-gray-1: #e3e0f0;
-  --sl-color-gray-2: #c3bfd4;
-  --sl-color-gray-3: #9a95b0;
-  --sl-color-gray-4: #6f6a86;
-  --sl-color-gray-5: #3a3648;
-  --sl-color-gray-6: #26232f;
-  --sl-color-gray-7: #1b1922;
-  --sl-color-black: #121017;
+  --sl-color-white: #e3e6e8;
+  --sl-color-gray-1: #c8ccd2;
+  --sl-color-gray-2: #a3a9b4;
+  --sl-color-gray-3: #7e8696;
+  --sl-color-gray-4: #5a6072;
+  --sl-color-gray-5: #2b3140;
+  --sl-color-gray-6: #1a1e28;
+  --sl-color-gray-7: #14171d;
+  --sl-color-black: #0d0f12;
 
-  --sl-color-bg: #121017;
-  --sl-color-bg-nav: #17151f;
-  --sl-color-bg-sidebar: #17151f;
-  --sl-color-bg-inline-code: #221f2c;
-  --sl-color-hairline-light: #272430;
-  --sl-color-hairline: #2e2a39;
-  --sl-color-hairline-shade: #3a3648;
+  --sl-color-bg: #0d0f12;
+  --sl-color-bg-nav: #0d0f12;
+  --sl-color-bg-sidebar: #0d0f12;
+  --sl-color-bg-inline-code: #1a1e28;
+  --sl-color-hairline-light: #1e222b;
+  --sl-color-hairline: #2b3140;
+  --sl-color-hairline-shade: #333a4c;
 
-  --sl-color-text: #e6e3f0;
-  --sl-color-text-accent: #a99bff;
-  --sl-color-text-invert: #121017;
+  --sl-color-text: #e3e6e8;
+  --sl-color-text-accent: #809fff;
+  --sl-color-text-invert: #0d0f12;
+
+  --ink-pink: #ff1981;
+  --ink-sky-from: #111b27;
+  --ink-sky-to: #265973;
+  --ink-cloud-300: #0e1620;
+  --ink-cloud-500: #121d2b;
 
   --ink-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px -16px rgba(0, 0, 0, 0.8);
-  --ink-shadow-lift: 0 2px 6px rgba(0, 0, 0, 0.45), 0 22px 48px -22px rgba(169, 155, 255, 0.35);
-  --ink-code-bg: #191722;
+  --ink-shadow-lift: 0 2px 6px rgba(0, 0, 0, 0.45), 0 22px 48px -22px rgba(128, 159, 255, 0.35);
+  --ink-code-bg: #14171d;
 }
 
 /* ---------- 基础 ---------- */
@@ -218,211 +231,6 @@ header.header {
   border-color: var(--sl-color-hairline-light);
 }
 
-/* ---------- 首页 hero ---------- */
-[data-page-type='splash'] .hero {
-  padding-block: 3rem 1rem;
-}
-
-[data-page-type='splash'] .hero h1 {
-  font-size: clamp(2rem, 5vw, 2.9rem);
-  letter-spacing: -0.03em;
-  background: linear-gradient(
-    100deg,
-    var(--sl-color-text) 0%,
-    var(--sl-color-accent) 78%,
-    var(--sl-color-accent-high) 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-[data-page-type='splash'] .hero .tagline {
-  font-size: 1.05rem;
-  color: var(--sl-color-gray-3);
-  max-width: 34rem;
-  margin-inline: auto;
-  line-height: 1.75;
-}
-
-[data-page-type='splash'] .hero .actions a {
-  border-radius: 999px;
-  padding-inline: 1.2rem;
-  transition: transform 0.15s ease, box-shadow 0.2s ease;
-}
-
-[data-page-type='splash'] .hero .actions a:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--ink-shadow-lift);
-}
-
-/* ---------- 分类卡片 ---------- */
-.cat-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 1rem;
-  margin-block: 1.5rem 2.75rem;
-}
-
-.cat-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  padding: 1.15rem 1.2rem 1rem;
-  border: 1px solid var(--sl-color-hairline-light);
-  border-radius: var(--ink-radius);
-  background: var(--sl-color-bg-nav);
-  box-shadow: var(--ink-shadow);
-  text-decoration: none !important;
-  transition: transform 0.18s ease, box-shadow 0.22s ease, border-color 0.18s ease;
-  overflow: hidden;
-}
-
-.cat-card::after {
-  content: '';
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 3px;
-  background: var(--card-tint, var(--sl-color-accent));
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-.cat-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--ink-shadow-lift);
-  border-color: color-mix(in srgb, var(--card-tint, var(--sl-color-accent)) 35%, transparent);
-}
-
-.cat-card:hover::after {
-  opacity: 1;
-}
-
-.cat-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 11px;
-  background: color-mix(in srgb, var(--card-tint, var(--sl-color-accent)) 12%, transparent);
-  color: var(--card-tint, var(--sl-color-accent));
-  margin-bottom: 0.25rem;
-}
-
-.cat-icon svg {
-  width: 1.15rem;
-  height: 1.15rem;
-}
-
-.cat-title {
-  font-size: 1.02rem;
-  font-weight: 650;
-  color: var(--sl-color-text);
-  letter-spacing: -0.01em;
-}
-
-.cat-desc {
-  font-size: 0.855rem;
-  line-height: 1.6;
-  color: var(--sl-color-gray-3);
-  flex: 1;
-}
-
-.cat-meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 0.55rem;
-  font-size: 0.78rem;
-  color: var(--sl-color-gray-3);
-  font-variant-numeric: tabular-nums;
-}
-
-.cat-meta .arrow {
-  transition: transform 0.18s ease;
-  color: var(--card-tint, var(--sl-color-accent));
-}
-
-.cat-card:hover .cat-meta .arrow {
-  transform: translateX(3px);
-}
-
-/* ---------- 最近更新 ---------- */
-.recent-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-bottom: 0.35rem;
-}
-
-.recent-head h2 {
-  font-size: 1.05rem !important;
-  margin: 0 !important;
-  border: 0 !important;
-  padding: 0 !important;
-  color: var(--sl-color-gray-2);
-}
-
-.recent-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 3rem;
-  border-top: 1px solid var(--sl-color-hairline-light);
-}
-
-.recent-list li {
-  border-bottom: 1px solid var(--sl-color-hairline-light);
-}
-
-.recent-item {
-  display: flex;
-  align-items: baseline;
-  gap: 0.85rem;
-  padding: 0.72rem 0.35rem;
-  text-decoration: none !important;
-  border-radius: 8px;
-  transition: background-color 0.15s ease, padding-inline 0.15s ease;
-}
-
-.recent-item:hover {
-  background: color-mix(in srgb, var(--sl-color-accent) 6%, transparent);
-  padding-inline: 0.7rem;
-}
-
-.recent-title {
-  font-size: 0.95rem;
-  color: var(--sl-color-text);
-  flex: 1;
-}
-
-.recent-item:hover .recent-title {
-  color: var(--sl-color-accent);
-}
-
-.recent-tag {
-  font-size: 0.75rem;
-  color: var(--sl-color-gray-3);
-  white-space: nowrap;
-}
-
-.recent-date {
-  font-size: 0.75rem;
-  color: var(--sl-color-gray-4);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-@media (max-width: 40rem) {
-  .recent-tag {
-    display: none;
-  }
-  .cat-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ---------- 文章底部导航 ---------- */
 .pagination-links a {
   border-radius: 12px;
@@ -452,4 +260,216 @@ header.header {
 /* 首页是 splash 模板，不需要「上一页 / 下一页」 */
 [data-has-hero] .pagination-links {
   display: none;
+}
+
+/* ============================================================
+   自定义光标
+   ============================================================ */
+html {
+  cursor: url('/cursor.svg') 4 3, auto;
+}
+
+a,
+button,
+summary,
+[role='button'],
+[data-open-modal] {
+  cursor: url('/cursor-pointer.svg') 4 3, pointer;
+}
+
+input,
+textarea {
+  cursor: auto;
+}
+
+/* ============================================================
+   首页宽度：splash 模板放宽一点，别让天空带太窄
+   ============================================================ */
+:root[data-page-type='splash'] {
+  --sl-content-width: 62rem;
+}
+
+/* ============================================================
+   关于页
+   ============================================================ */
+.about-lead {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 1.35rem 1.5rem;
+  margin-block: 0.4rem 2rem;
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--sl-color-accent) 7%, var(--sl-color-bg-nav)),
+    var(--sl-color-bg-nav) 60%
+  );
+  box-shadow: var(--ink-shadow);
+}
+
+.about-avatar svg {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 8px 24px -12px color-mix(in srgb, var(--sl-color-accent) 70%, transparent);
+  animation: aboutAvatar 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.about-name {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 720;
+  letter-spacing: -0.03em;
+}
+
+.about-role {
+  margin: 0.15rem 0 0.7rem;
+  color: var(--sl-color-gray-3);
+  font-size: 0.92rem;
+}
+
+.about-links {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 0.86rem;
+}
+
+.about-links a {
+  color: var(--sl-color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--sl-color-accent) 35%, transparent);
+  padding-bottom: 1px;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+.about-links a:hover {
+  border-color: currentColor;
+}
+
+@keyframes aboutAvatar {
+  from {
+    opacity: 0;
+    transform: scale(0.82) rotate(-8deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* 工具箱胶囊 */
+.tool-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-block: 1.1rem 1.8rem;
+}
+
+.tool-pills span {
+  padding: 0.34rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--sl-color-hairline-light);
+  background: var(--sl-color-bg-inline-code);
+  font-size: 0.84rem;
+  color: var(--sl-color-gray-2);
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.tool-pills span:hover {
+  transform: translateY(-2px) rotate(-1.5deg);
+  border-color: var(--sl-color-accent);
+  color: var(--sl-color-accent);
+}
+
+/* FAQ 折叠 */
+details.faq {
+  margin-block: 0.65rem;
+  padding: 0 1.05rem;
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: 14px;
+  background: var(--sl-color-bg-nav);
+  transition: border-color 0.22s ease, background-color 0.22s ease;
+}
+
+details.faq:hover {
+  border-color: color-mix(in srgb, var(--sl-color-accent) 35%, transparent);
+}
+
+details.faq[open] {
+  background: color-mix(in srgb, var(--sl-color-accent) 4%, var(--sl-color-bg-nav));
+  border-color: color-mix(in srgb, var(--sl-color-accent) 28%, transparent);
+}
+
+details.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  font-weight: 620;
+  font-size: 0.98rem;
+  list-style: none;
+}
+
+details.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+details.faq summary::marker {
+  content: '';
+}
+
+/* Starlight 会给 summary 加一个 ::before 的箭头，这里去掉，用我们自己的 + */
+details.faq summary::before {
+  display: none !important;
+}
+
+details.faq summary {
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+}
+
+details.faq summary::after {
+  content: '+';
+  font-size: 1.15rem;
+  line-height: 1;
+  color: var(--sl-color-accent);
+  transition: transform 0.26s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+details.faq[open] summary::after {
+  transform: rotate(135deg);
+}
+
+details.faq > :not(summary) {
+  animation: faqIn 0.32s ease both;
+}
+
+details.faq > :last-child {
+  margin-bottom: 0.95rem;
+}
+
+@keyframes faqIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 40rem) {
+  .about-lead {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .about-links {
+    justify-content: center;
+  }
 }

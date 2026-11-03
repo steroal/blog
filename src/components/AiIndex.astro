@@ -1,0 +1,311 @@
+---
+import { items, categoryOrder } from '../data/ai-index';
+import type { Cat } from '../data/ai-index';
+
+const groups = categoryOrder
+  .map((cat) => ({ cat, list: items.filter((i) => i.cat === cat) }))
+  .filter((g) => g.list.length > 0);
+---
+
+<div class="ai-index not-content">
+  <div class="ai-toolbar">
+    <label class="ai-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="11" cy="11" r="6.5" />
+        <path d="m16 16 4 4" />
+      </svg>
+      <input type="search" placeholder="搜名字或关键词，比如「沙箱」「周报」" data-ai-search />
+    </label>
+    <span class="ai-count" data-ai-count>{items.length} 条</span>
+  </div>
+
+  <div class="ai-chips" data-ai-chips>
+    <button class="chip is-active" data-cat="全部" type="button">全部</button>
+    {
+      categoryOrder.map((cat: Cat) => (
+        <button class="chip" data-cat={cat} type="button">
+          {cat}
+        </button>
+      ))
+    }
+  </div>
+
+  {
+    groups.map(({ cat, list }) => (
+      <section class="ai-group" data-group={cat}>
+        <h2 class="ai-group-title">
+          {cat}
+          <span>{list.length}</span>
+        </h2>
+        <div class="ai-cards">
+          {list.map((item) => (
+            <a
+              class="ai-card"
+              href={item.url}
+              target="_blank"
+              rel="noopener"
+              data-text={`${item.name} ${item.desc} ${item.cat} ${item.note ?? ''}`.toLowerCase()}
+            >
+              <span class="ai-card-head">
+                <span class="ai-name">{item.name}</span>
+                {item.note && <span class="ai-note">{item.note}</span>}
+              </span>
+              <span class="ai-desc">{item.desc}</span>
+              <span class="ai-arrow" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 17 17 7M9 7h8v8" />
+                </svg>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+
+  <p class="ai-empty" data-ai-empty hidden>没有匹配的条目，换个关键词试试。</p>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('.ai-index');
+  if (root) {
+    const input = root.querySelector<HTMLInputElement>('[data-ai-search]');
+    const countEl = root.querySelector<HTMLElement>('[data-ai-count]');
+    const chips = Array.from(root.querySelectorAll<HTMLButtonElement>('.chip'));
+    const cards = Array.from(root.querySelectorAll<HTMLAnchorElement>('.ai-card'));
+    const groups = Array.from(root.querySelectorAll<HTMLElement>('.ai-group'));
+    const empty = root.querySelector<HTMLElement>('[data-ai-empty]');
+
+    let activeCat = '全部';
+
+    const apply = () => {
+      const q = (input?.value ?? '').trim().toLowerCase();
+      let visible = 0;
+
+      for (const card of cards) {
+        const cat = card.closest<HTMLElement>('.ai-group')?.dataset.group ?? '';
+        const matchCat = activeCat === '全部' || cat === activeCat;
+        const matchText = !q || (card.dataset.text ?? '').includes(q);
+        const show = matchCat && matchText;
+        card.hidden = !show;
+        if (show) visible++;
+      }
+
+      for (const group of groups) {
+        const any = Array.from(group.querySelectorAll<HTMLAnchorElement>('.ai-card')).some(
+          (c) => !c.hidden
+        );
+        group.hidden = !any;
+      }
+
+      if (countEl) countEl.textContent = `${visible} 条`;
+      if (empty) empty.hidden = visible !== 0;
+    };
+
+    input?.addEventListener('input', apply);
+
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        activeCat = chip.dataset.cat ?? '全部';
+        chips.forEach((c) => c.classList.toggle('is-active', c === chip));
+        apply();
+      });
+    }
+  }
+</script>
+
+<style>
+  .ai-index {
+    margin-block: 1.5rem 3rem;
+  }
+
+  .ai-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .ai-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .ai-search svg {
+    position: absolute;
+    left: 0.8rem;
+    width: 1.05rem;
+    height: 1.05rem;
+    color: var(--sl-color-gray-4);
+    pointer-events: none;
+  }
+
+  .ai-search input {
+    width: 100%;
+    padding: 0.62rem 0.9rem 0.62rem 2.4rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 999px;
+    background: var(--sl-color-bg-nav);
+    color: var(--sl-color-text);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .ai-search input:focus {
+    border-color: var(--sl-color-accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--sl-color-accent) 14%, transparent);
+  }
+
+  .ai-count {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-4);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .ai-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .chip {
+    padding: 0.34rem 0.8rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--sl-color-gray-2);
+    font-size: 0.82rem;
+    transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease,
+      transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .chip:hover {
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+    color: var(--sl-color-accent);
+  }
+
+  .chip.is-active {
+    background: var(--sl-color-accent);
+    border-color: var(--sl-color-accent);
+    color: #fff;
+  }
+
+  .ai-group {
+    margin-bottom: 2.4rem;
+  }
+
+  .ai-group-title {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 0;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-pink);
+  }
+
+  .ai-group-title span {
+    font-size: 0.72rem;
+    color: var(--sl-color-gray-4);
+    letter-spacing: 0;
+  }
+
+  .ai-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 0.75rem;
+  }
+
+  .ai-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.95rem 1rem 1rem;
+    border: 1px solid var(--sl-color-hairline-light);
+    border-radius: 14px;
+    background: var(--sl-color-bg-nav);
+    text-decoration: none !important;
+    color: inherit;
+    transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.22s ease,
+      border-color 0.2s ease;
+  }
+
+  .ai-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--sl-color-accent) 40%, transparent);
+    box-shadow: var(--ink-shadow-lift);
+  }
+
+  .ai-card-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+
+  .ai-name {
+    font-size: 0.98rem;
+    font-weight: 640;
+    color: var(--sl-color-text);
+    letter-spacing: -0.01em;
+  }
+
+  .ai-card:hover .ai-name {
+    color: var(--sl-color-accent);
+  }
+
+  .ai-note {
+    font-size: 0.71rem;
+    color: var(--sl-color-gray-4);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ai-desc {
+    font-size: 0.85rem;
+    line-height: 1.68;
+    color: var(--sl-color-gray-3);
+  }
+
+  .ai-arrow {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.8rem;
+    opacity: 0;
+    transform: translate(-2px, 2px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    color: var(--sl-color-accent);
+  }
+
+  .ai-arrow svg {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+
+  .ai-card:hover .ai-arrow {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ai-empty {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--sl-color-gray-3);
+    font-size: 0.9rem;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+</style>

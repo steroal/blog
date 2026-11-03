@@ -1,0 +1,312 @@
+---
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const SECTIONS = [
+  { dir: 'tinker', label: '折腾', href: '/tinker/', tint: '#5b4bdb' },
+  { dir: 'essay', label: '随笔', href: '/essay/', tint: '#0f8b8d' },
+  { dir: 'library', label: '索引', href: '/library/', tint: '#c04b8f' },
+];
+
+const docsRoot = path.resolve('src/content/docs');
+const docs = await getCollection('docs');
+
+const isPost = (id: string) =>
+  id !== 'index' && id !== 'about' && !id.endsWith('/index');
+
+const mtimeOf = (id: string) => {
+  const abs = path.join(docsRoot, `${id}.mdx`);
+  const abs2 = path.join(docsRoot, `${id}.md`);
+  for (const p of [abs, abs2]) {
+    try {
+      return fs.statSync(p).mtimeMs;
+    } catch {}
+  }
+  return 0;
+};
+
+const posts = docs
+  .filter((d) => isPost(d.id))
+  .map((d) => ({
+    id: d.id,
+    title: d.data.title,
+    description: d.data.description ?? '',
+    section: d.id.split('/')[0],
+    time: d.data.date ? d.data.date.getTime() : mtimeOf(d.id),
+  }))
+  .sort((a, b) => b.time - a.time);
+
+const sectionLabel = (dir: string) =>
+  SECTIONS.find((s) => s.dir === dir)?.label ?? '其他';
+
+const fmtDate = (ms: number) => {
+  if (!ms) return '';
+  const d = new Date(ms);
+  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
+};
+
+const countOf = (dir: string) =>
+  posts.filter((p) => p.section === dir).length;
+---
+
+<div class="home-grid not-content">
+  <section class="col-articles">
+    <p class="eyebrow"><span>最近更新</span></p>
+
+    <ul class="posts">
+      {
+        posts.map((post, i) => (
+          <li class="post" style={`--d:${i * 70}ms`}>
+            <a class="post-link" href={`/${post.id}/`}>
+              <h2 class="post-title">{post.title}</h2>
+              <p class="post-desc">{post.description}</p>
+              <span class="post-meta">
+                <span class="post-tag">{sectionLabel(post.section)}</span>
+                <span class="dot">·</span>
+                <span>{fmtDate(post.time)}</span>
+                <span class="read-more">阅读 →</span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+      {
+        posts.length === 0 && (
+          <li class="post-empty">还没有文章，写一篇试试。</li>
+        )
+      }
+    </ul>
+  </section>
+
+  <aside class="col-cats">
+    <p class="eyebrow"><span>按分类浏览</span></p>
+    <div class="pills">
+      {
+        SECTIONS.map((s) => (
+          <a class="pill" href={s.href} style={`--tint:${s.tint}`}>
+            {s.label}
+            <em>{countOf(s.dir)}</em>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="side-note">
+      <p>全站静态生成，断网也能搜。按 <kbd>/</kbd> 或 <kbd>Ctrl</kbd>+<kbd>K</kbd> 打开搜索。</p>
+    </div>
+  </aside>
+</div>
+
+<script>
+  // 列表项进入视口时逐个淡入
+  const items = document.querySelectorAll<HTMLElement>('.post');
+  if (!('IntersectionObserver' in window)) {
+    items.forEach((el) => el.classList.add('is-in'));
+  } else {
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        }
+      },
+      { rootMargin: '0px 0px -8% 0px' }
+    );
+    items.forEach((el) => io.observe(el));
+  }
+</script>
+
+<style>
+  .home-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(14rem, 0.85fr);
+    gap: 3.4rem;
+    margin-block: 0.6rem 3rem;
+    align-items: start;
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1.2rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-pink);
+  }
+
+  .eyebrow::after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(to right, currentColor, transparent);
+    opacity: 0.35;
+  }
+
+  .posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.55s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+    transition-delay: var(--d, 0ms);
+  }
+
+  .post.is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .post-link {
+    display: block;
+    padding: 1.15rem 0.2rem 1.2rem;
+    border-top: 1px solid var(--sl-color-hairline-light);
+    text-decoration: none !important;
+    transition: padding-inline 0.22s ease, background-color 0.22s ease;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .post:last-of-type .post-link {
+    border-bottom: 1px solid var(--sl-color-hairline-light);
+  }
+
+  .post-link:hover {
+    padding-inline: 0.7rem;
+    background: color-mix(in srgb, var(--sl-color-accent) 4%, transparent);
+  }
+
+  .post-title {
+    margin: 0 0 0.35rem;
+    font-size: 1.2rem;
+    font-weight: 660;
+    letter-spacing: -0.015em;
+    color: var(--sl-color-text);
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .post-link:hover .post-title {
+    color: var(--sl-color-accent);
+  }
+
+  .post-desc {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.72;
+    color: var(--sl-color-gray-3);
+  }
+
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.65rem;
+    font-size: 0.78rem;
+    color: var(--sl-color-gray-4);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .post-tag {
+    color: var(--sl-color-accent);
+    font-weight: 600;
+  }
+
+  .dot {
+    opacity: 0.5;
+  }
+
+  .read-more {
+    margin-inline-start: auto;
+    color: var(--sl-color-accent);
+    font-weight: 600;
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: opacity 0.22s ease, transform 0.22s ease;
+  }
+
+  .post-link:hover .read-more {
+    opacity: 1;
+    transform: none;
+  }
+
+  .post-empty {
+    padding: 1.5rem 0;
+    color: var(--sl-color-gray-3);
+    border-top: 1px solid var(--sl-color-hairline-light);
+  }
+
+  /* ---------- 分类胶囊 ---------- */
+  .pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--tint) 26%, transparent);
+    background: color-mix(in srgb, var(--tint) 12%, transparent);
+    color: var(--tint);
+    font-size: 0.86rem;
+    font-weight: 620;
+    text-decoration: none !important;
+    transition: transform 0.24s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .pill em {
+    font-style: normal;
+    margin-inline-start: 0.4em;
+    font-size: 0.74rem;
+    opacity: 0.65;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pill:hover {
+    transform: translateY(-2px) rotate(-1.5deg);
+    background: color-mix(in srgb, var(--tint) 20%, transparent);
+    box-shadow: 0 8px 18px -12px var(--tint);
+  }
+
+  .side-note {
+    margin-top: 2.2rem;
+    padding: 1rem 1.05rem;
+    border: 1px dashed var(--sl-color-hairline);
+    border-radius: 14px;
+    font-size: 0.82rem;
+    line-height: 1.8;
+    color: var(--sl-color-gray-3);
+  }
+
+  .side-note p {
+    margin: 0;
+  }
+
+  .side-note kbd {
+    padding: 0.1em 0.4em;
+    border-radius: 5px;
+    border: 1px solid var(--sl-color-hairline);
+    background: var(--sl-color-bg-inline-code);
+    font-size: 0.78em;
+    font-family: var(--sl-font-mono);
+  }
+
+  @media (max-width: 56rem) {
+    .home-grid {
+      grid-template-columns: 1fr;
+      gap: 2.4rem;
+    }
+  }
+</style>

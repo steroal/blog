@@ -1,0 +1,330 @@
+---
+import data from '../data/bookmarks.json';
+
+const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
+---
+
+<div class="bm not-content">
+  <div class="bm-stats">
+    <div class="stat">
+      <b>{total}</b>
+      <span>原始条目</span>
+    </div>
+    <div class="stat">
+      <b>{kept}</b>
+      <span>去重后保留</span>
+    </div>
+    <div class="stat">
+      <b>{excluded.重复}</b>
+      <span>重复的</span>
+    </div>
+    <div class="stat">
+      <b>{excluded.招聘网站 + excluded.敏感目录 + excluded.内网或本地}</b>
+      <span>主动排除</span>
+    </div>
+    <div class="stat">
+      <b>{groups.length}</b>
+      <span>个分组</span>
+    </div>
+  </div>
+
+  <p class="bm-meta">
+    抓取自 {sources.map((s) => `${s.browser}（${s.count} 条）`).join('、')}，生成于 {generatedAt}。
+    浏览器里实际有 {sources.length} 个配置文件被读到。
+  </p>
+
+  <div class="bm-toolbar">
+    <label class="bm-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="11" cy="11" r="6.5" />
+        <path d="m16 16 4 4" />
+      </svg>
+      <input type="search" placeholder="搜标题或域名，比如「stm32」「github」" data-bm-search />
+    </label>
+    <span class="bm-count" data-bm-count>{kept} 条</span>
+  </div>
+
+  <div class="bm-chips">
+    <button class="chip is-active" data-group="全部" type="button">全部</button>
+    {
+      groups.map((g) => (
+        <button class="chip" data-group={g.name} type="button">
+          {g.name}
+        </button>
+      ))
+    }
+  </div>
+
+  {
+    groups.map((group) => (
+      <section class="bm-group" data-group-name={group.name}>
+        <h2 class="bm-group-title">
+          {group.name}
+          <span>{group.items.length}</span>
+        </h2>
+        <div class="bm-list">
+          {group.items.map((item) => (
+            <a
+              class="bm-item"
+              href={item.url}
+              target="_blank"
+              rel="noopener"
+              data-text={`${item.title} ${item.host}`.toLowerCase()}
+            >
+              <span class="bm-title">{item.title}</span>
+              <span class="bm-host">{item.host}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+
+  <p class="bm-empty" data-bm-empty hidden>没有匹配的条目。</p>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('.bm');
+  if (root) {
+    const input = root.querySelector<HTMLInputElement>('[data-bm-search]');
+    const countEl = root.querySelector<HTMLElement>('[data-bm-count]');
+    const chips = Array.from(root.querySelectorAll<HTMLButtonElement>('.chip'));
+    const items = Array.from(root.querySelectorAll<HTMLAnchorElement>('.bm-item'));
+    const sections = Array.from(root.querySelectorAll<HTMLElement>('.bm-group'));
+    const empty = root.querySelector<HTMLElement>('[data-bm-empty]');
+
+    let active = '全部';
+
+    const apply = () => {
+      const q = (input?.value ?? '').trim().toLowerCase();
+      let visible = 0;
+
+      for (const item of items) {
+        const group = item.closest<HTMLElement>('.bm-group')?.dataset.groupName ?? '';
+        const ok = (active === '全部' || group === active) && (!q || (item.dataset.text ?? '').includes(q));
+        item.hidden = !ok;
+        if (ok) visible++;
+      }
+
+      for (const section of sections) {
+        const any = Array.from(section.querySelectorAll<HTMLAnchorElement>('.bm-item')).some((i) => !i.hidden);
+        section.hidden = !any;
+      }
+
+      if (countEl) countEl.textContent = `${visible} 条`;
+      if (empty) empty.hidden = visible !== 0;
+    };
+
+    input?.addEventListener('input', apply);
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        active = chip.dataset.group ?? '全部';
+        chips.forEach((c) => c.classList.toggle('is-active', c === chip));
+        apply();
+      });
+    }
+  }
+</script>
+
+<style>
+  .bm {
+    margin-block: 1.5rem 3rem;
+  }
+
+  .bm-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .stat {
+    padding: 0.85rem 0.9rem;
+    border: 1px solid var(--sl-color-hairline-light);
+    border-radius: 14px;
+    background: var(--sl-color-bg-nav);
+    text-align: center;
+  }
+
+  .stat b {
+    display: block;
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--sl-color-accent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stat span {
+    font-size: 0.75rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  .bm-meta {
+    font-size: 0.8rem;
+    line-height: 1.7;
+    color: var(--sl-color-gray-4);
+    margin-bottom: 1.6rem;
+  }
+
+  .bm-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .bm-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .bm-search svg {
+    position: absolute;
+    left: 0.8rem;
+    width: 1.05rem;
+    height: 1.05rem;
+    color: var(--sl-color-gray-4);
+    pointer-events: none;
+  }
+
+  .bm-search input {
+    width: 100%;
+    padding: 0.6rem 0.9rem 0.6rem 2.4rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 999px;
+    background: var(--sl-color-bg-nav);
+    color: var(--sl-color-text);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .bm-search input:focus {
+    border-color: var(--sl-color-accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--sl-color-accent) 14%, transparent);
+  }
+
+  .bm-count {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-4);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .bm-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .chip {
+    padding: 0.32rem 0.78rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--sl-color-gray-2);
+    font-size: 0.82rem;
+    transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease,
+      transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .chip:hover {
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+    color: var(--sl-color-accent);
+  }
+
+  .chip.is-active {
+    background: var(--sl-color-accent);
+    border-color: var(--sl-color-accent);
+    color: #fff;
+  }
+
+  .bm-group {
+    margin-bottom: 2.2rem;
+  }
+
+  .bm-group-title {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0 0 0.8rem;
+    padding: 0;
+    border: 0;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-pink);
+  }
+
+  .bm-group-title span {
+    font-size: 0.72rem;
+    color: var(--sl-color-gray-4);
+    letter-spacing: 0;
+  }
+
+  .bm-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 0.1rem 1.6rem;
+  }
+
+  .bm-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.42rem 0.4rem;
+    border-radius: 7px;
+    text-decoration: none !important;
+    color: var(--sl-color-gray-2);
+    transition: background-color 0.15s ease, color 0.15s ease;
+    min-width: 0;
+  }
+
+  .bm-item:hover {
+    background: color-mix(in srgb, var(--sl-color-accent) 6%, transparent);
+    color: var(--sl-color-accent);
+  }
+
+  .bm-title {
+    font-size: 0.86rem;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .bm-host {
+    font-size: 0.72rem;
+    color: var(--sl-color-gray-4);
+    white-space: nowrap;
+    max-width: 11rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bm-empty {
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--sl-color-gray-3);
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  @media (max-width: 40rem) {
+    .bm-list {
+      grid-template-columns: 1fr;
+    }
+    .bm-host {
+      display: none;
+    }
+  }
+</style>
