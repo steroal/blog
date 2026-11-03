@@ -73,3 +73,17 @@ sidebar:
 ## 备份
 
 内容和代码都在 `git` 里，`git log` 可以回退任何一版。另外 Cloudflare 保留每次部署的产物，可以在控制台的 Deployments 里回滚。
+
+## 同步源码到 GitHub
+
+远端已经配好（`origin` → `https://github.com/steroal/zhetengji`），本地已有两次提交，**但还没推上去**——首次推送需要你在浏览器里登录一次 GitHub：
+
+```bash
+cd M:/Wiki/projects/blog
+git push -u origin main
+```
+
+弹出的凭据窗口里选「Sign in with your browser」，浏览器里点一次 Authorize 就行。之后 `git push` 不再需要授权。
+
+推上去只是备份源码，**跟线上部署没有关系**（线上是 `发布.bat` 直接上传的）。
+
