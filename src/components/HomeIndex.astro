@@ -116,6 +116,8 @@ const countOf = (dir: string) =>
       { rootMargin: '0px 0px -8% 0px' }
     );
     items.forEach((el) => io.observe(el));
+    // 兜底：万一观察器没触发，1.5 秒后全部显示
+    setTimeout(() => items.forEach((el) => el.classList.add('is-in')), 1500);
   }
 </script>
 

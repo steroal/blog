@@ -101,7 +101,7 @@ const arcs = palette.map((color, i) => ({
   .sky {
     position: relative;
     height: clamp(240px, 32vw, 380px);
-    margin-block: 0 2.4rem;
+    margin-block: 1.1rem 2.2rem;
     border-radius: 26px;
     overflow: hidden;
     box-shadow: var(--ink-shadow);
@@ -115,7 +115,7 @@ const arcs = palette.map((color, i) => ({
     background: linear-gradient(180deg, var(--ink-sky-from) 0%, var(--ink-sky-from) 38%, var(--ink-sky-to) 100%);
   }
 
-  :global(:root[data-theme='dark']) .sky-wash {
+  :root[data-theme='dark'] .sky-wash {
     background: linear-gradient(180deg, var(--ink-sky-from) 0%, var(--ink-sky-from) 30%, var(--ink-sky-to) 100%);
   }
 
@@ -176,7 +176,7 @@ const arcs = palette.map((color, i) => ({
     animation-duration: 40s;
   }
 
-  :global(:root[data-theme='dark']) .cloud {
+  :root[data-theme='dark'] .cloud {
     background: #2b4a5e;
     opacity: 0.5;
   }
@@ -236,7 +236,7 @@ const arcs = palette.map((color, i) => ({
     transform-origin: 50% 100%;
   }
 
-  :global(:root[data-theme='dark']) .cat {
+  :root[data-theme='dark'] .cat {
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
   }
 

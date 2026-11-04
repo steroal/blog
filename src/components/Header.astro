@@ -13,7 +13,17 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
 ---
 
 <div class="ink-bar">
-  <div class="bar-left"></div>
+  <div class="bar-left">
+    <nav class="bar-nav" aria-label="站内导航">
+      {
+        nav.map((item) => (
+          <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
 
   <div class="bar-center">
     <a class="brand" href="/">
@@ -27,16 +37,6 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
       </span>
       <span class="brand-text">Steroal</span>
     </a>
-
-    <nav class="bar-nav" aria-label="站内导航">
-      {
-        nav.map((item) => (
-          <a href={item.href} class:list={['nav-link', { active: isActive(item.href) }]}>
-            {item.label}
-          </a>
-        ))
-      }
-    </nav>
   </div>
 
   <div class="bar-actions">
@@ -74,87 +74,80 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
   </div>
 </div>
 
-<script>
-  /* ---------------- 主题切换 ---------------- */
-  const root = document.documentElement;
-  const themeBtn = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+<script is:inline>
+  (function () {
+    var root = document.documentElement;
+    var themeBtn = document.querySelector('[data-theme-toggle]');
 
-  function currentTheme(): 'light' | 'dark' {
-    const attr = root.dataset.theme;
-    if (attr === 'light' || attr === 'dark') return attr;
-    return matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-  }
+    function currentTheme() {
+      var attr = root.getAttribute('data-theme');
+      if (attr === 'light' || attr === 'dark') return attr;
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
 
-  themeBtn?.addEventListener('click', () => {
-    const next = currentTheme() === 'dark' ? 'light' : 'dark';
-    root.dataset.theme = next;
-    try {
-      localStorage.setItem('starlight-theme', next);
-    } catch {}
-    pop(next === 'dark' ? 420 : 620);
-  });
+    /* ---------- 音效 ---------- */
+    var SOUND_KEY = 'steroal-sound';
+    var soundOn = false;
+    try { soundOn = localStorage.getItem(SOUND_KEY) === 'on'; } catch (e) {}
+    var audioCtx;
 
-  /* ---------------- 音效 ---------------- */
-  const soundKey = 'steroal-sound';
-  const soundBtn = document.querySelector<HTMLButtonElement>('[data-sound-toggle]');
-  let soundOn = false;
-  try {
-    soundOn = localStorage.getItem(soundKey) === 'on';
-  } catch {}
+    function pop(freq) {
+      if (!soundOn) return;
+      try {
+        var AC = window.AudioContext || window.webkitAudioContext;
+        if (!AC) return;
+        audioCtx = audioCtx || new AC();
+        var t = audioCtx.currentTime;
+        var osc = audioCtx.createOscillator();
+        var gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq || 660, t);
+        osc.frequency.exponentialRampToValueAtTime((freq || 660) * 0.72, t + 0.1);
+        gain.gain.setValueAtTime(0.0001, t);
+        gain.gain.exponentialRampToValueAtTime(0.05, t + 0.012);
+        gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.14);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(t);
+        osc.stop(t + 0.16);
+      } catch (e) {}
+    }
 
-  let ctx: AudioContext | undefined;
+    if (themeBtn) {
+      themeBtn.addEventListener('click', function () {
+        var next = currentTheme() === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('starlight-theme', next); } catch (e) {}
+        pop(next === 'dark' ? 420 : 620);
+      });
+    }
 
-  function pop(freq = 660) {
-    if (!soundOn) return;
-    try {
-      ctx ??= new (window.AudioContext || (window as any).webkitAudioContext)();
-      const t = ctx.currentTime;
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.type = 'sine';
-      osc.frequency.setValueAtTime(freq, t);
-      osc.frequency.exponentialRampToValueAtTime(freq * 0.72, t + 0.1);
-      gain.gain.setValueAtTime(0.0001, t);
-      gain.gain.exponentialRampToValueAtTime(0.05, t + 0.012);
-      gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.14);
-      osc.connect(gain).connect(ctx.destination);
-      osc.start(t);
-      osc.stop(t + 0.16);
-    } catch {}
-  }
+    var soundBtn = document.querySelector('[data-sound-toggle]');
+    function syncSound() {
+      if (!soundBtn) return;
+      soundBtn.setAttribute('aria-pressed', soundOn ? 'true' : 'false');
+      if (soundOn) soundBtn.classList.add('is-on'); else soundBtn.classList.remove('is-on');
+    }
+    if (soundBtn) {
+      soundBtn.addEventListener('click', function () {
+        soundOn = !soundOn;
+        try { localStorage.setItem(SOUND_KEY, soundOn ? 'on' : 'off'); } catch (e) {}
+        syncSound();
+        pop(880);
+      });
+    }
+    syncSound();
 
-  function syncSoundBtn() {
-    soundBtn?.setAttribute('aria-pressed', String(soundOn));
-    soundBtn?.classList.toggle('is-on', soundOn);
-  }
-
-  soundBtn?.addEventListener('click', () => {
-    soundOn = !soundOn;
-    try {
-      localStorage.setItem(soundKey, soundOn ? 'on' : 'off');
-    } catch {}
-    syncSoundBtn();
-    pop(880);
-  });
-
-  syncSoundBtn();
-
-  // 悬停与点击的轻响，只对站内可交互元素生效
-  document.addEventListener(
-    'pointerenter',
-    (e) => {
-      const el = (e.target as HTMLElement | null)?.closest('a, button');
+    /* ---------- 悬停与点击的轻响 ---------- */
+    document.addEventListener('pointerenter', function (e) {
+      var el = e.target && e.target.closest ? e.target.closest('a, button') : null;
       if (el) pop(760);
-    },
-    true
-  );
-  document.addEventListener(
-    'click',
-    (e) => {
-      if ((e.target as HTMLElement | null)?.closest('a, button')) pop(560);
-    },
-    true
-  );
+    }, true);
+    document.addEventListener('click', function (e) {
+      var el = e.target && e.target.closest ? e.target.closest('a, button') : null;
+      if (el) pop(560);
+    }, true);
+  })();
 </script>
 
 <style>
@@ -210,11 +203,16 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
     letter-spacing: -0.03em;
   }
 
+  .bar-left {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+
   .bar-nav {
     display: flex;
     align-items: center;
     gap: 0.1rem;
-    margin-inline-start: 0.35rem;
   }
 
   .nav-link {
@@ -295,10 +293,10 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
   }
 
   /* 主题按钮：浅色显示太阳，深色显示月亮 */
-  :global(:root[data-theme='dark']) .theme-btn .ico-sun {
+  :root[data-theme='dark'] .theme-btn .ico-sun {
     display: none;
   }
-  :global(:root:not([data-theme='dark'])) .theme-btn .ico-moon {
+  :root:not([data-theme='dark']) .theme-btn .ico-moon {
     display: none;
   }
 
@@ -337,7 +335,7 @@ const isActive = (href: string) => pathname === href || pathname.startsWith(href
     display: none !important;
   }
 
-  @media (max-width: 60rem) {
+  @media (max-width: 46rem) {
     .bar-nav {
       display: none;
     }

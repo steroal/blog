@@ -1,36 +1,45 @@
 ---
 import data from '../data/bookmarks.json';
 
-const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
+const { total, kept, excluded, generatedAt, sources, groups } = data;
+
+/** 把一个分组里的书签按域名聚成簇，多的排前面 */
+const cluster = (items: { title: string; url: string; host: string }[]) => {
+  const map = new Map<string, typeof items>();
+  for (const item of items) {
+    if (!map.has(item.host)) map.set(item.host, []);
+    map.get(item.host)!.push(item);
+  }
+  return [...map.entries()]
+    .map(([host, list]) => ({ host, list }))
+    .sort((a, b) => b.list.length - a.list.length || a.host.localeCompare(b.host));
+};
+
+const view = groups.map((g) => {
+  const clusters = cluster(g.items);
+  return {
+    name: g.name,
+    count: g.items.length,
+    main: clusters.slice(0, 10),
+    tail: clusters.slice(10),
+    tailCount: clusters.slice(10).reduce((n, c) => n + c.list.length, 0),
+  };
+});
+
+const excludedTotal = excluded.招聘网站 + excluded.敏感目录 + excluded.内网或本地;
 ---
 
 <div class="bm not-content">
   <div class="bm-stats">
-    <div class="stat">
-      <b>{total}</b>
-      <span>原始条目</span>
-    </div>
-    <div class="stat">
-      <b>{kept}</b>
-      <span>去重后保留</span>
-    </div>
-    <div class="stat">
-      <b>{excluded.重复}</b>
-      <span>重复的</span>
-    </div>
-    <div class="stat">
-      <b>{excluded.招聘网站 + excluded.敏感目录 + excluded.内网或本地}</b>
-      <span>主动排除</span>
-    </div>
-    <div class="stat">
-      <b>{groups.length}</b>
-      <span>个分组</span>
-    </div>
+    <div class="stat"><b>{total}</b><span>原始条目</span></div>
+    <div class="stat"><b>{kept}</b><span>去重后保留</span></div>
+    <div class="stat"><b>{excluded.重复}</b><span>重复的</span></div>
+    <div class="stat"><b>{excludedTotal}</b><span>主动排除</span></div>
+    <div class="stat"><b>{groups.length}</b><span>个分组</span></div>
   </div>
 
   <p class="bm-meta">
     抓取自 {sources.map((s) => `${s.browser}（${s.count} 条）`).join('、')}，生成于 {generatedAt}。
-    浏览器里实际有 {sources.length} 个配置文件被读到。
   </p>
 
   <div class="bm-toolbar">
@@ -47,7 +56,7 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
   <div class="bm-chips">
     <button class="chip is-active" data-group="全部" type="button">全部</button>
     {
-      groups.map((g) => (
+      view.map((g) => (
         <button class="chip" data-group={g.name} type="button">
           {g.name}
         </button>
@@ -56,26 +65,59 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
   </div>
 
   {
-    groups.map((group) => (
+    view.map((group) => (
       <section class="bm-group" data-group-name={group.name}>
         <h2 class="bm-group-title">
           {group.name}
-          <span>{group.items.length}</span>
+          <span>{group.count}</span>
         </h2>
-        <div class="bm-list">
-          {group.items.map((item) => (
-            <a
-              class="bm-item"
-              href={item.url}
-              target="_blank"
-              rel="noopener"
-              data-text={`${item.title} ${item.host}`.toLowerCase()}
-            >
-              <span class="bm-title">{item.title}</span>
-              <span class="bm-host">{item.host}</span>
-            </a>
-          ))}
-        </div>
+
+        {group.main.map((c) => (
+          <details class="bm-cluster">
+            <summary>
+              <span class="host">{c.host}</span>
+              <span class="num">×{c.list.length}</span>
+            </summary>
+            <div class="bm-list">
+              {c.list.map((item) => (
+                <a
+                  class="bm-item"
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener"
+                  data-text={`${item.title} ${item.host}`.toLowerCase()}
+                >
+                  {item.title}
+                </a>
+              ))}
+            </div>
+          </details>
+        ))}
+
+        {group.tail.length > 0 && (
+          <details class="bm-cluster bm-tail">
+            <summary>
+              <span class="host">其他 {group.tail.length} 个站点</span>
+              <span class="num">×{group.tailCount}</span>
+            </summary>
+            <div class="bm-list">
+              {group.tail.flatMap((c) =>
+                c.list.map((item) => (
+                  <a
+                    class="bm-item"
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener"
+                    data-text={`${item.title} ${item.host}`.toLowerCase()}
+                  >
+                    <span class="tail-host">{item.host}</span>
+                    {item.title}
+                  </a>
+                ))
+              )}
+            </div>
+          </details>
+        )}
       </section>
     ))
   }
@@ -91,7 +133,12 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
     const chips = Array.from(root.querySelectorAll<HTMLButtonElement>('.chip'));
     const items = Array.from(root.querySelectorAll<HTMLAnchorElement>('.bm-item'));
     const sections = Array.from(root.querySelectorAll<HTMLElement>('.bm-group'));
+    const clusters = Array.from(root.querySelectorAll<HTMLDetailsElement>('.bm-cluster'));
     const empty = root.querySelector<HTMLElement>('[data-bm-empty]');
+
+    // 记住每个域名簇默认是开还是关
+    const initialOpen = new Map<HTMLDetailsElement, boolean>();
+    clusters.forEach((d) => initialOpen.set(d, d.open));
 
     let active = '全部';
 
@@ -104,6 +151,13 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
         const ok = (active === '全部' || group === active) && (!q || (item.dataset.text ?? '').includes(q));
         item.hidden = !ok;
         if (ok) visible++;
+      }
+
+      for (const details of clusters) {
+        const any = Array.from(details.querySelectorAll<HTMLAnchorElement>('.bm-item')).some((i) => !i.hidden);
+        details.hidden = !any;
+        // 搜索时自动展开命中的簇，清空后再恢复默认
+        details.open = any && (q ? true : initialOpen.get(details) ?? false);
       }
 
       for (const section of sections) {
@@ -135,7 +189,7 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
     gap: 0.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
   }
 
   .stat {
@@ -164,7 +218,7 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
     font-size: 0.8rem;
     line-height: 1.7;
     color: var(--sl-color-gray-4);
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.4rem;
   }
 
   .bm-toolbar {
@@ -218,7 +272,7 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.6rem;
   }
 
   .chip {
@@ -245,14 +299,14 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
   }
 
   .bm-group {
-    margin-bottom: 2.2rem;
+    margin-bottom: 1.8rem;
   }
 
   .bm-group-title {
     display: flex;
     align-items: center;
     gap: 0.55rem;
-    margin: 0 0 0.8rem;
+    margin: 0 0 0.7rem;
     padding: 0;
     border: 0;
     font-size: 0.76rem;
@@ -268,45 +322,93 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
     letter-spacing: 0;
   }
 
-  .bm-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: 0.1rem 1.6rem;
+  .bm-cluster {
+    border: 1px solid var(--sl-color-hairline-light);
+    border-radius: 10px;
+    margin-bottom: 0.35rem;
+    background: var(--sl-color-bg-nav);
   }
 
-  .bm-item {
+  .bm-cluster summary {
     display: flex;
-    align-items: baseline;
-    gap: 0.6rem;
-    padding: 0.42rem 0.4rem;
-    border-radius: 7px;
-    text-decoration: none !important;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.42rem 0.7rem;
+    list-style: none;
+    font-size: 0.82rem;
     color: var(--sl-color-gray-2);
-    transition: background-color 0.15s ease, color 0.15s ease;
-    min-width: 0;
   }
 
-  .bm-item:hover {
-    background: color-mix(in srgb, var(--sl-color-accent) 6%, transparent);
+  .bm-cluster summary::-webkit-details-marker,
+  .bm-cluster summary::marker {
+    display: none;
+    content: '';
+  }
+
+  .bm-cluster summary::after {
+    content: '+';
+    margin-inline-start: auto;
+    color: var(--sl-color-gray-4);
+    transition: transform 0.2s ease;
+  }
+
+  .bm-cluster[open] summary::after {
+    transform: rotate(45deg);
+  }
+
+  .bm-cluster summary:hover {
     color: var(--sl-color-accent);
   }
 
-  .bm-title {
-    font-size: 0.86rem;
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  .host {
+    font-family: var(--sl-font-mono);
+    font-size: 0.78rem;
   }
 
-  .bm-host {
+  .num {
     font-size: 0.72rem;
     color: var(--sl-color-gray-4);
-    white-space: nowrap;
-    max-width: 11rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .bm-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 0 1.2rem;
+    padding: 0.2rem 0.7rem 0.6rem;
+    border-top: 1px dashed var(--sl-color-hairline-light);
+    margin-top: 0.1rem;
+  }
+
+  .bm-item {
+    display: block;
+    padding: 0.32rem 0.35rem;
+    border-radius: 6px;
+    font-size: 0.84rem;
+    color: var(--sl-color-gray-2);
+    text-decoration: none !important;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .bm-item:hover {
+    background: color-mix(in srgb, var(--sl-color-accent) 7%, transparent);
+    color: var(--sl-color-accent);
+  }
+
+  .tail-host {
+    display: inline-block;
+    min-width: 7.5rem;
+    margin-inline-end: 0.5rem;
+    font-family: var(--sl-font-mono);
+    font-size: 0.72rem;
+    color: var(--sl-color-gray-4);
+  }
+
+  .bm-tail .bm-list {
+    grid-template-columns: 1fr;
   }
 
   .bm-empty {
@@ -322,9 +424,6 @@ const { total, kept, excluded, generatedAt, sources, topHosts, groups } = data;
   @media (max-width: 40rem) {
     .bm-list {
       grid-template-columns: 1fr;
-    }
-    .bm-host {
-      display: none;
     }
   }
 </style>
